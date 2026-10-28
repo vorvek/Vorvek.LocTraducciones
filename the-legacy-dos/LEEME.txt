@@ -1,5 +1,5 @@
 The Legacy: Realm of Terror (DOS) - Traducción al español y parche de compatibilidad
-Vorveloc Traducciones - versión 1.0
+Vorveloc Traducciones - versión 1.1
 =====================================================================================
 
 Este parche traduce al español "The Legacy: Realm of Terror" (MicroProse, 1993) para MS-DOS y corrige
@@ -12,7 +12,7 @@ Necesitas el juego instalado desde el CD de la edición Hit Squad (Ocean, 1997):
 
   LEGSHIP.EXE (en la carpeta del juego)
     Original:  487.712 bytes  CRC32 e52c8136  SHA-1 2bdbe14f4f7a31c07027f8c511d74cab02b3a506
-    Resultado: 487.712 bytes  CRC32 79e6a471  SHA-1 67598a6e5484d90226ca7e5ffab079ca83b8c062
+    Resultado: 487.712 bytes  CRC32 8cb55fd8  SHA-1 6f2ddc96cb687d6d550156f8fb2a772243a62561
 
 Cómo aplicar el parche
 ----------------------
@@ -47,6 +47,8 @@ Compatibilidad
   de la Sound Blaster (220 en decimal en lugar de 220h). INSTALL ya la lee bien, y APLICAR repara el
   archivo LEGACY.CFG si ya tiene ese error. INSTALL también toma la IRQ y el DMA de la variable BLASTER.
 - Corrección de un fallo del juego original que podía colgar el juego con algunos mensajes.
+- Corrección de un fallo del juego original que medía mal las letras acentuadas y cortaba algunas líneas
+  de la ventana de mensajes.
 
 Notas
 -----
