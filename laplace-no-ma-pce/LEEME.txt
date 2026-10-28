@@ -12,14 +12,14 @@ Hay dos parches. Usa el que corresponda a tu copia:
    Para la copia de Redump en varios archivos (.cue + un .bin por pista).
    Se aplica al archivo "Laplace no Ma (Japan) (Track 02).bin".
      Original:  CRC32 f909ecc2  SHA-1 f91e497825d0ac8583bbf232e5050c7af699bb8c
-     Resultado: CRC32 0fe71efb  SHA-1 8018e894f91036ddcd1fecee186c8ec84301f75e
+     Resultado: CRC32 6cb9dc82  SHA-1 99826bfeb8546516bcf11765eaf8a72c705cbb5b
 
 2) Laplace no Ma (Japan) [chdman bin] [T-Es Vorveloc v0.9].xdelta
    Para un .bin único (todas las pistas en un solo archivo), por ejemplo el que se obtiene de un .chd con:
      chdman extractcd -i "Laplace no Ma (Japan).chd" -o "Laplace no Ma (Japan).cue"
    Se aplica a ese .bin único.
      Original:  CRC32 b6f7e14d  SHA-1 ffc85e8409f353e6cb71e0c6826b4fe65029282d
-     Resultado: CRC32 60ea4a30  SHA-1 0a19a7165d94e0262f7b8d3a9697dfa6962b8a73
+     Resultado: CRC32 2af11855  SHA-1 1212fa0101ced23a44bcf0cd2a6215c80b13a63f
 
 Cómo aplicar el parche
 ----------------------
