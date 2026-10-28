@@ -1,5 +1,5 @@
 Laplace no Ma (PC Engine Super CD-ROM²) - Traducción al español
-Vorveloc Traducciones - versión 0.9 (beta)
+Vorveloc Traducciones - versión 1.0
 =================================================================
 
 Este parche traduce al español el juego japonés "Laplace no Ma" (Human, 1993) para PC Engine CD.
@@ -8,13 +8,13 @@ El parche solo cambia la pista 2 (datos); las pistas de audio no cambian.
 
 Hay dos parches. Usa el que corresponda a tu copia:
 
-1) Laplace no Ma (Japan) (Track 02) [T-Es Vorveloc v0.9].xdelta
+1) Laplace no Ma (Japan) (Track 02) [T-Es Vorveloc v1.0].xdelta
    Para la copia de Redump en varios archivos (.cue + un .bin por pista).
    Se aplica al archivo "Laplace no Ma (Japan) (Track 02).bin".
      Original:  CRC32 f909ecc2  SHA-1 f91e497825d0ac8583bbf232e5050c7af699bb8c
      Resultado: CRC32 6cb9dc82  SHA-1 99826bfeb8546516bcf11765eaf8a72c705cbb5b
 
-2) Laplace no Ma (Japan) [chdman bin] [T-Es Vorveloc v0.9].xdelta
+2) Laplace no Ma (Japan) [chdman bin] [T-Es Vorveloc v1.0].xdelta
    Para un .bin único (todas las pistas en un solo archivo), por ejemplo el que se obtiene de un .chd con:
      chdman extractcd -i "Laplace no Ma (Japan).chd" -o "Laplace no Ma (Japan).cue"
    Se aplica a ese .bin único.
@@ -46,7 +46,7 @@ Qué incluye
 
 Problemas conocidos
 -------------------
-- Versión beta: falta una partida completa de principio a fin.
+- No se ha probado una partida completa de principio a fin.
 - La sincronización de los subtítulos de las escenas narradas no se ha comprobado en hardware real ni en MiSTer.
 - Algunos nombres del personal en los créditos son lecturas probables de kanji.
 
