@@ -10,8 +10,6 @@ Parche:
 
   Germs - Nerawareta Machi (Japan) [T-Es Vorveloc v1.0].xdelta
   Se aplica al archivo "Germs - Nerawareta Machi (Japan).bin".
-  Sirve para la copia de Redump y para el .bin que se obtiene de un .chd con:
-    chdman extractcd -i "Germs - Nerawareta Machi (Japan).chd" -o "Germs - Nerawareta Machi (Japan).cue"
     Original:  CRC32 b32d4a63  SHA-1 8ef1ed69c8f532d8e2ee91e1e4650b6a014ac2d4  (190.013.376 bytes)
     Resultado: CRC32 4915a1b3  SHA-1 282a4b6e62016f522faa9d399ec3a09a0d998652  (198.377.088 bytes)
 
@@ -27,8 +25,6 @@ Cómo aplicar el parche
 
 Después de aplicar el parche:
 - Pon al archivo nuevo el nombre que indica el .cue (o edita la línea FILE del .cue).
-- Si quieres un .chd (por ejemplo para MiSTer):
-    chdman createcd -i "Germs - Nerawareta Machi (Japan) [T-Es].cue" -o "Germs - Nerawareta Machi (Japan) [T-Es].chd"
 
 Probado en DuckStation.
 
