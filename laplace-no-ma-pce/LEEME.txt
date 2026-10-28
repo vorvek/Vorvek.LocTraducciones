@@ -1,0 +1,53 @@
+Laplace no Ma (PC Engine Super CD-ROM²) - Traducción al español
+Vorveloc Traducciones - versión 0.9 (beta)
+=================================================================
+
+Este parche traduce al español el juego japonés "Laplace no Ma" (Human, 1993) para PC Engine CD.
+Necesitas una copia del juego que coincida con Redump (Laplace no Ma (Japan), disco 37167).
+El parche solo cambia la pista 2 (datos); las pistas de audio no cambian.
+
+Hay dos parches. Usa el que corresponda a tu copia:
+
+1) Laplace no Ma (Japan) (Track 02) [T-Es Vorveloc v0.9].xdelta
+   Para la copia de Redump en varios archivos (.cue + un .bin por pista).
+   Se aplica al archivo "Laplace no Ma (Japan) (Track 02).bin".
+     Original:  CRC32 f909ecc2  SHA-1 f91e497825d0ac8583bbf232e5050c7af699bb8c
+     Resultado: CRC32 cdc6e2d9  SHA-1 60900dbe80b60c208c7006d10b09d96f6f931c51
+
+2) Laplace no Ma (Japan) [chdman bin] [T-Es Vorveloc v0.9].xdelta
+   Para un .bin único (todas las pistas en un solo archivo), por ejemplo el que se obtiene de un .chd con:
+     chdman extractcd -i "Laplace no Ma (Japan).chd" -o "Laplace no Ma (Japan).cue"
+   Se aplica a ese .bin único.
+     Original:  CRC32 b6f7e14d  SHA-1 ffc85e8409f353e6cb71e0c6826b4fe65029282d
+     Resultado: CRC32 abd61adb  SHA-1 8f5532fdd1a0ad46dfb828aca253c92b51ad305c
+
+Cómo aplicar el parche
+----------------------
+- Windows: xdelta UI o Delta Patcher. Elige el parche, el archivo original y un nombre para el archivo nuevo.
+- Navegador: Rom Patcher JS (https://www.marcrobledo.com/RomPatcher.js/) también admite .xdelta.
+- Línea de comandos:
+    xdelta3 -d -s "archivo original.bin" "parche.xdelta" "archivo nuevo.bin"
+
+Después de aplicar el parche:
+- Copia de Redump: sustituye el archivo de la pista 2 por el nuevo (con el mismo nombre) y abre el .cue.
+- .bin único: pon al archivo nuevo el nombre que indica el .cue (o edita la línea FILE del .cue).
+- Si quieres un .chd (por ejemplo para MiSTer):
+    chdman createcd -i "Laplace no Ma (Japan).cue" -o "Laplace no Ma (Japan) [T-Es].chd"
+
+El juego necesita la System Card 3.0 (Super CD-ROM²). Probado en MesenCE. Partidas guardadas de la versión
+japonesa funcionan, pero los nombres escritos en kana se ven como letras.
+
+Qué incluye
+-----------
+- Todo el texto del juego: diálogos, menús, objetos, monstruos, habilidades, pantallas de creación de personajes.
+- Fuentes nuevas con acentos y ñ, letras dobles para los nombres largos de objetos.
+- Menús gráficos, pantallas de estado, introducción, mapa, rótulo de Newcam y créditos finales.
+- Subtítulos nuevos en las escenas narradas sin texto (llegada a Newcam y final).
+
+Problemas conocidos
+-------------------
+- Versión beta: falta una partida completa de principio a fin.
+- La sincronización de los subtítulos de las escenas narradas no se ha comprobado en hardware real ni en MiSTer.
+- Algunos nombres del personal en los créditos son lecturas probables de kanji.
+
+Más información: https://github.com/vorvek/VorvelocTraducciones/wiki/Laplace-no-Ma
