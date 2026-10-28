@@ -56,8 +56,4 @@ Notas
 - El español ocupa el lugar del francés. Para jugar en inglés: LEGACY -english.
 - La protección por manual de esta edición acepta cualquier respuesta: pulsa INTRO.
 
-Problemas conocidos
--------------------
-- No se ha probado una partida completa de principio a fin.
-
 Más información: https://github.com/vorvek/VorvelocTraducciones/wiki/The-Legacy
