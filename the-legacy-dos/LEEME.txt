@@ -1,0 +1,61 @@
+The Legacy: Realm of Terror (DOS) - Traducción al español y parche de compatibilidad
+Vorveloc Traducciones - versión 1.0
+=====================================================================================
+
+Este parche traduce al español "The Legacy: Realm of Terror" (MicroProse, 1993) para MS-DOS y corrige
+varios fallos que impiden jugar en ordenadores más modernos con DOS.
+
+Necesitas el juego instalado desde el CD de la edición Hit Squad (Ocean, 1997):
+
+  Legacy, The - Realm of Terror (1997)(Hit Squad).iso
+    73.187.328 bytes  CRC32 66e9081b  SHA-1 efffce2cbb089bb614e9417445da6ed5000cd910
+
+  LEGSHIP.EXE (en la carpeta del juego)
+    Original:  487.712 bytes  CRC32 e52c8136  SHA-1 2bdbe14f4f7a31c07027f8c511d74cab02b3a506
+    Resultado: 487.712 bytes  CRC32 79e6a471  SHA-1 67598a6e5484d90226ca7e5ffab079ca83b8c062
+
+Cómo aplicar el parche
+----------------------
+1. Copia todo el contenido del .zip (XDPATCH.EXE, APLICAR.BAT, RESTAURA.BAT y la carpeta XD) en la
+   carpeta del juego, por ejemplo C:\LEGACY.
+2. Desde DOS, entra en esa carpeta y escribe APLICAR.
+   APLICAR comprueba cada archivo antes de cambiarlo y guarda los originales en la carpeta ORIGINAL.
+   Si algo falla, el juego queda como estaba. Hacen falta unos 28 MB libres en el disco.
+3. Juega con LEGACY, como siempre.
+4. Si no oyes los efectos de sonido digitales, ejecuta INSTALL y revisa la dirección, la IRQ y el DMA de la
+   tarjeta de sonido. INSTALL toma esos valores de la variable BLASTER.
+
+Para volver a la versión original, escribe RESTAURA en la misma carpeta.
+
+Qué incluye
+-----------
+Traducción
+- Todo el texto del juego: descripciones de objetos, mensajes, los 58 documentos, los diálogos con los
+  personajes, las biografías de los personajes y el libro de hechizos.
+- Menús, cuadros de diálogo y mensajes del programa.
+- Gráficos con texto: botones, rótulos de la hoja de personaje, los periódicos de la creación de
+  personajes, las pintadas de la casa, la placa del culto, la pantalla final y "MicroProse presenta".
+- Fuentes con ñ, ¿, ¡ y vocales acentuadas.
+- Artículos y concordancias en español (el, la, los, las; abierto, abierta, abiertos, abiertas).
+- El programa de instalación (INSTALL) y los archivos de ayuda, en español.
+
+Compatibilidad
+- Memoria: el juego pedía 610.000 bytes de memoria convencional libre. Ahora le bastan unos 573.000, así
+  que funciona con más controladores cargados. El búfer de overlays es más pequeño; los overlays siguen
+  en memoria expandida (EMS).
+- Cuelgue en la introducción con el primer relámpago: el programa de instalación guardaba mal la dirección
+  de la Sound Blaster (220 en decimal en lugar de 220h). INSTALL ya la lee bien, y APLICAR repara el
+  archivo LEGACY.CFG si ya tiene ese error. INSTALL también toma la IRQ y el DMA de la variable BLASTER.
+- Corrección de un fallo del juego original que podía colgar el juego con algunos mensajes.
+
+Notas
+-----
+- El juego necesita memoria expandida (EMS) con marco de página: EMM386, JEMMEX o similar.
+- El español ocupa el lugar del francés. Para jugar en inglés: LEGACY -english.
+- La protección por manual de esta edición acepta cualquier respuesta: pulsa INTRO.
+
+Problemas conocidos
+-------------------
+- No se ha probado una partida completa de principio a fin.
+
+Más información: https://github.com/vorvek/VorvelocTraducciones/wiki/The-Legacy
