@@ -3,11 +3,12 @@ Vorveloc Traducciones - versión 1.0
 ================================================================
 
 Este parche traduce al español el juego japonés "Jaseiken Necromancer" (Hudson Soft, 1988) para PC Engine.
-Necesitas una copia de la HuCard sin cabecera (262.144 bytes) que coincida con estas sumas de control:
+Necesitas una copia de la HuCard que coincida con No-Intro: "Jaseiken Necromancer (Japan)", sin cabecera
+(262.144 bytes), con estas sumas de control:
 
   Jaseiken Necromancer (Japan).pce
     Original:  CRC32 53109ae6  SHA-1 49b4122ea576a7c1c8d1ae2c5bf627e550367246
-    Resultado: CRC32 44e351f6  SHA-1 c5aee277ec1381b8af19e2b587eb802642fea974  (524.288 bytes)
+    Resultado: CRC32 e404db45  SHA-1 4671131adb65c4ca7edb1f9d848f4405ce0d8699  (524.288 bytes)
 
 Si tu archivo mide 262.656 bytes, tiene una cabecera de copiadora de 512 bytes: quítala antes de aplicar el
 parche (por ejemplo con la opción de cabecera de Rom Patcher JS o con cualquier herramienta de cabeceras PCE).
@@ -32,16 +33,24 @@ Qué incluye
 - Mensajes de combate, objetos, armas, armaduras, monstruos, hechizos y nombres de los compañeros.
 - Menús rediseñados: ventanas más anchas con palabras completas y un cursor que cubre la palabra entera.
 - Fuente nueva con minúsculas, acentos, ñ, ¿, ¡ y « »; letras dobles para que los nombres largos quepan.
-- Pantalla de nombre con letras latinas; mensajes que hacen pausa cuando la ventana de texto se llena.
+- Pantalla de nombre y de contraseña con letras latinas; mensajes que hacen pausa cuando la ventana de texto
+  se llena.
+- Mensajes de combate reordenados para que suenen naturales en español ("Rime: Mion lanzado.").
+- Tratamiento de vos (vuestro, os) en boca de los humanos; los monstruos y demonios tutean.
 - El logotipo del título se mantiene como en el original. En el juego, la espada se llama Nigromante.
+
+Notas
+-----
+- El nombre del protagonista ocupa cuatro casillas como máximo, igual que en el original. Es un límite del
+  sistema de contraseñas: la palabra de despertar guarda el nombre, y con una quinta casilla la contraseña
+  más larga ya no cabría en las 64 casillas de la pantalla. Para compensarlo, la pantalla de nombre ofrece
+  letras dobles (dos letras estrechas en una casilla), así que el nombre puede tener hasta ocho letras:
+  «Arturo» cabe como Ar-t-u-ro. En la pantalla de contraseña, la mitad derecha va en verde para que las
+  letras dobles no se confundan con las normales.
 
 Problemas conocidos
 -------------------
-- No se ha probado una partida completa de principio a fin.
-- Los mensajes de combate no se han visto todavía en un combate real.
-- Las palabras de despertar (contraseñas) no se han probado: la pantalla usa ahora letras latinas, y algunas
-  casillas muestran letras dobles.
-- Algunas ventanas no se han visto todavía en el juego: tiendas, combate, temas de conversación, cofres,
-  velocidad de mensajes y lista de compañeros.
+- No se ha probado una partida completa de principio a fin. Las pruebas cubren el principio del juego:
+  pueblos, tiendas, posada, combates, palabras de despertar y elección de compañeros.
 
 Más información: https://github.com/vorvek/VorvelocTraducciones/wiki/Jaseiken-Necromancer
