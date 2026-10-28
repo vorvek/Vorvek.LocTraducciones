@@ -13,7 +13,7 @@ Parche:
   Sirve para la copia de Redump y para el .bin que se obtiene de un .chd con:
     chdman extractcd -i "Germs - Nerawareta Machi (Japan).chd" -o "Germs - Nerawareta Machi (Japan).cue"
     Original:  CRC32 b32d4a63  SHA-1 8ef1ed69c8f532d8e2ee91e1e4650b6a014ac2d4  (190.013.376 bytes)
-    Resultado: CRC32 9c54a491  SHA-1 c42fa92e8620574f5593712684d225309920d1d2  (198.377.088 bytes)
+    Resultado: CRC32 4915a1b3  SHA-1 282a4b6e62016f522faa9d399ec3a09a0d998652  (198.377.088 bytes)
 
 El archivo nuevo es más grande que el original: el archivo de escenas del juego (SCE.S) crece para que
 quepa el texto en español y se coloca al final del disco.
