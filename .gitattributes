@@ -1,0 +1,4 @@
+# Source archive of this release: README.md and jaseiken-necromancer-pce/ only
+/* export-ignore
+/README.md -export-ignore
+/jaseiken-necromancer-pce -export-ignore
