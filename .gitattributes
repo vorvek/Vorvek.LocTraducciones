@@ -1,0 +1,4 @@
+# Source archive of this release: README.md and the-legacy-dos/ only
+/* export-ignore
+/README.md -export-ignore
+/the-legacy-dos -export-ignore
