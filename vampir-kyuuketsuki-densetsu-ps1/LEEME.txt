@@ -51,7 +51,8 @@ Notas de traducción
 -------------------
 - Christof: el personaje se llama originalmente Christopher (クリストファ, Kurisutofa), pero romanizado no cabe en los 8 caracteres
   que la entrada de nombre proporciona.
-- Duran: el otro protagonista se llama デュラン (Dyuran). Se escribe sin tilde, pero se pronuncia "Durán".
+- Duran: el otro protagonista se llama デュラン (Dyuran). Se decidió escribirlo sin tilde (españolizado), pero se
+  debe pronunciar "Durán".
 - Tratamientos: el japonés del juego distingue mucho el registro de cada personaje. En español, los nobles y el
   trato a la antigua usan vos y vosotros; el resto de personajes usa usted o tú, según la cortesía del original.
   Los siervos se dirigen a su señor de vos.
