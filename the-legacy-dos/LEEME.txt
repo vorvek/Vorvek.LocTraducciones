@@ -53,7 +53,8 @@ Compatibilidad
 Notas
 -----
 - El juego necesita memoria expandida (EMS) con marco de página: EMM386, JEMMEX o similar.
-- El español ocupa el lugar del francés. Para jugar en inglés: LEGACY -english.
+- El español ocupa el lugar del francés. Para jugar en inglés: LEGACY -english, o ejecuta INSTALL.EXE y
+  selecciona inglés (¡o alemán!).
 - La protección por manual de esta edición acepta cualquier respuesta: pulsa INTRO.
 
 Más información: https://github.com/vorvek/VorvelocTraducciones/wiki/The-Legacy
