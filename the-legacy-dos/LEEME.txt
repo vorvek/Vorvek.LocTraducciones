@@ -1,5 +1,5 @@
 The Legacy: Realm of Terror (DOS) - Traducción al español y parche de compatibilidad
-Vorveloc Traducciones - versión 1.1
+Vorvek.Loc Traducciones - versión 1.1
 =====================================================================================
 
 Este parche traduce al español "The Legacy: Realm of Terror" (MicroProse, 1993) para MS-DOS y corrige
@@ -57,4 +57,4 @@ Notas
   selecciona inglés (¡o alemán!).
 - La protección por manual de esta edición acepta cualquier respuesta: pulsa INTRO.
 
-Más información: https://github.com/vorvek/VorvelocTraducciones/wiki/The-Legacy
+Más información: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/The-Legacy
