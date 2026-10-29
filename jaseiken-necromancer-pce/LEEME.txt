@@ -2,6 +2,11 @@ Jaseiken Necromancer (PC Engine HuCard) - Traducción al español
 Vorvek.Loc Traducciones - versión 1.0
 ================================================================
 
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▒░ Nigromante: La Espada Maldita ░▒▓▓▓▓
+▓▓▓▓▒░_______________________________░▒▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
 Este parche traduce al español el juego japonés "Jaseiken Necromancer" (Hudson Soft, 1988) para PC Engine.
 Necesitas una copia de la HuCard que coincida con No-Intro: "Jaseiken Necromancer (Japan)", sin cabecera
 (262.144 bytes), con estas sumas de control:

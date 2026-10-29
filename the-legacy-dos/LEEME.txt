@@ -2,6 +2,11 @@ The Legacy: Realm of Terror (DOS) - Traducción al español y parche de compatib
 Vorvek.Loc Traducciones - versión 1.1
 =====================================================================================
 
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▒░ El Legado: Reino del Terror ░▒▓▓▓▓
+▓▓▓▓▒░_____________________________░▒▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
 Este parche traduce al español "The Legacy: Realm of Terror" (MicroProse, 1993) para MS-DOS y corrige
 varios fallos que impiden jugar en ordenadores más modernos con DOS.
 

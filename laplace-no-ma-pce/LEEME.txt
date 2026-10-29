@@ -2,6 +2,11 @@ Laplace no Ma (PC Engine Super CD-ROM²) - Traducción al español
 Vorvek.Loc Traducciones - versión 1.0
 =================================================================
 
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▒░ El Demonio de Laplace ░▒▓▓▓▓
+▓▓▓▓▒░_______________________░▒▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
 Este parche traduce al español el juego japonés "Laplace no Ma" (Human, 1993) para PC Engine CD.
 Necesitas una copia del juego que coincida con Redump (Laplace no Ma (Japan), disco 37167).
 El parche solo cambia la pista 2 (datos); las pistas de audio no cambian.

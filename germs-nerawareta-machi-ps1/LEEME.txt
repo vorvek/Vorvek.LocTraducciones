@@ -2,6 +2,11 @@ Germs: Nerawareta Machi (PlayStation) - Traducción al español
 Vorvek.Loc Traducciones - versión 1.0
 =================================================================
 
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▒░ Germs: La Ciudad Señalada ░▒▓▓▓▓
+▓▓▓▓▒░___________________________░▒▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
 Este parche traduce al español el juego japonés "GERMS 狙われた街" (KAJ, 1999) para PlayStation.
 Necesitas una copia del juego que coincida con Redump (Germs: Nerawareta Machi, SLPS-02107, disco 45725).
 El disco tiene una sola pista de datos.
