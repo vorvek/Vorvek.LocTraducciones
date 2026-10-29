@@ -8,3 +8,4 @@ Este es un repositorio de parches y traducciones para juegos clásicos.
 | Germs: Nerawareta Machi | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/VorvelocTraducciones/wiki/Germs-Nerawareta-Machi) |
 | Jaseiken Necromancer | PC Engine | Traducción completa | [Enlace](https://github.com/vorvek/VorvelocTraducciones/wiki/Jaseiken-Necromancer) |
 | The Legacy: Realm of Terror | MS-DOS | Traducción completa | [Enlace](https://github.com/vorvek/VorvelocTraducciones/wiki/The-Legacy) |
+| Vampir: Kyuuketsuki Densetsu | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/VorvelocTraducciones/wiki/Vampir-Kyuuketsuki-Densetsu) |
