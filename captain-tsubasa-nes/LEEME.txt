@@ -1,5 +1,5 @@
 Captain Tsubasa (NES) - Traducción al español
-Vorvek.Loc Traducciones - versión 1.2
+Vorvek.Loc Traducciones - versión 1.3
 ================================================================
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -22,15 +22,15 @@ el archivo con cabecera y otro para el archivo sin cabecera:
     Original:  CRC32 f3f1269d  SHA-1 16a5c45c00862cd2f9c190117f91a8e4c142e8b5
 
   Resultado de los dos parches (393.232 bytes, con cabecera):
-               CRC32 bfd60fe1  SHA-1 64c0bd8a2e0a874176757f891b1ed1321bdd1067
+               CRC32 efce6caf  SHA-1 b89767a3f36644f4b2d9413798b32be17bbfdb87
 
 Si tu archivo tiene otra cabecera de 16 bytes (por ejemplo, 262.160 bytes con otro CRC32), quítala y usa
 el parche sin cabecera: el resultado sale igual, con su propia cabecera.
 
 Parches:
 
-  Captain Tsubasa (Japan) [T-Es Vorvek.Loc v1.2].xdelta
-  Captain Tsubasa (Japan) (sin cabecera) [T-Es Vorvek.Loc v1.2].xdelta
+  Captain Tsubasa (Japan) [T-Es Vorvek.Loc v1.3].xdelta
+  Captain Tsubasa (Japan) (sin cabecera) [T-Es Vorvek.Loc v1.3].xdelta
 
 Cómo aplicar el parche
 ----------------------
