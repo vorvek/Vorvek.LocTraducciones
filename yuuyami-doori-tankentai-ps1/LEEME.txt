@@ -50,6 +50,20 @@ Qué incluye
 
 Notas de traducción
 -------------------
+- ¿"La patrulla del ocaso"? El nombre original del juego es, literalmente, "el grupo de exploración de la
+  calle del Crepúsculo", como si fuera el nombre propio de una calle. Esa calle no es un lugar real del juego,
+  y la traducción literal resulta bastante densa en español. Se eligió "La patrulla del ocaso" porque se
+  consideró que mantenía la esencia de la idea.
+
+  Un "grupo de exploración" (探検隊 / tankentai) está formado por dos partes: 探検 (tanken), "exploración", la
+  acción de adentrarse en lugares desconocidos o peligrosos para descubrir qué hay en ellos, y 隊 (tai),
+  "unidad" o "escuadra", la palabra que se usa para grupos organizados como 部隊 (unidad militar) o 消防隊 (cuerpo
+  de bomberos). El japonés la usa tanto para expediciones reales (南極探検隊, la expedición a la Antártida) como
+  para un juego muy típico de la infancia: un grupo de niños "forma" su propio tankentai para explorar el
+  barrio, el bosque de detrás del colegio o una casa abandonada. El 隊 le da al grupo un aire solemne, casi
+  militar, y por eso "patrulla" encaja bien. La palabra recuerda además a la serie de televisión 川口浩探検隊 (la
+  expedición de Hiroshi Kawaguchi), de finales de los años setenta y de los ochenta, con sus dramáticas
+  "expediciones a la selva".
 - La traducción es fiel al original y mantiene su identidad japonesa: nombres, lugares, leyendas, comida y
   vida escolar no se adaptan.
 - Se mantienen los tratamientos japoneses (-san, -kun, -chan, -senpai, -sensei) y expresiones como
