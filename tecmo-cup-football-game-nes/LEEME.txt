@@ -60,6 +60,6 @@ Notas
 - Se mantienen los nombres de Tecmo Cup: personajes, equipos (RAZORS, SEALS, TOPS...) y tiros especiales
   de la versión española (el Rugido de Damon, el Cañonazo...), solo con la ortografía corregida.
 - Se ha eliminado el nombre del jugador al mostrar las opciones defensivas, para dejar más espacio.
-- La pantalla de título conserva el logotipo original.
+- Se decidió dejar el nombre/logotipo original en la pantalla de título.
 
 Más información: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Tecmo-Cup-Football-Game
