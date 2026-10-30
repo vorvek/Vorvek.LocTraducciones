@@ -1,9 +1,9 @@
 Yuuyami Doori Tankentai (PlayStation) - Traducción al español
-Vorvek.Loc Traducciones - versión 1.0
+Vorvek.Loc Traducciones - versión 1.1
 =================================================================
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-▓▓▓▓▒░ La patrulla del ocaso ░▒▓▓▓▓
+▓▓▓▓▒░ La Patrulla del Ocaso ░▒▓▓▓▓
 ▓▓▓▓▒░_______________________░▒▓▓▓▓
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
@@ -13,10 +13,10 @@ El disco tiene una sola pista de datos.
 
 Parche:
 
-  Yuuyami Doori Tankentai (Japan) [T-Es Vorvek.Loc v1.0].xdelta
+  Yuuyami Doori Tankentai (Japan) [T-Es Vorvek.Loc v1.1].xdelta
   Se aplica al archivo "Yuuyami Doori Tankentai (Japan).bin".
     Original:  CRC32 9d2b1afe  SHA-1 a6025151bddbf2c48157f0f5b91a27e03301a6f9  (723.656.304 bytes)
-    Resultado: CRC32 c2242074  SHA-1 73cbff253b60965c4f233211a0456b461715381b  (729.103.536 bytes)
+    Resultado: CRC32 d0c06e7f  SHA-1 d26b20f7cd78ce87484c16427f78d580efab7dcb  (729.103.536 bytes)
 
 El archivo nuevo es algo más grande que el original: el archivo de datos del juego (FILELINK.FLB) crece con
 el texto y los gráficos en español, y los vídeos y el audio que van detrás se desplazan. La imagen cabe en un
@@ -46,14 +46,16 @@ Qué incluye
   mensajes de la tarjeta de memoria y aviso inicial.
 - Mapas de la ciudad: rótulos de lugares y calles en el mapa general y en todos los niveles de zoom, mapas
   ovalados y nombres de calles de la pantalla de elección de ruta, y el mapa del cartel del inicio del paseo.
-- Título de la partida guardada en la tarjeta de memoria: "La patrulla del ocaso".
+- Pantalla de título: el título en español, "La Patrulla del Ocaso", debajo del logotipo japonés.
+- Título de la partida guardada en la tarjeta de memoria: "La Patrulla del Ocaso".
 
 Notas de traducción
 -------------------
-- ¿"La patrulla del ocaso"? El nombre original del juego es, literalmente, "el grupo de exploración de la
+- ¿"La Patrulla del Ocaso"? El nombre original del juego es, literalmente, "el grupo de exploración de la
   calle del Crepúsculo", como si fuera el nombre propio de una calle. Esa calle no es un lugar real del juego,
-  y la traducción literal resulta bastante densa en español. Se eligió "La patrulla del ocaso" porque se
-  consideró que mantenía la esencia de la idea.
+  y la traducción literal resulta bastante densa en español. Se eligió "La Patrulla del Ocaso" porque se
+  consideró que mantenía la esencia de la idea. Se escribe con mayúsculas porque es el nombre propio del
+  grupo, como "la Guardia Civil".
 
   Un "grupo de exploración" (探検隊 / tankentai) está formado por dos partes: 探検 (tanken), "exploración", la
   acción de adentrarse en lugares desconocidos o peligrosos para descubrir qué hay en ellos, y 隊 (tai),
@@ -73,8 +75,7 @@ Notas de traducción
 - Los nombres propios de los lugares se dejan en japonés (Hirumidai, Sakanoue, Koshu Kaido); la parte
   descriptiva se traduce ("Calle de la obra", "Puente Hirumi").
 - En la pantalla de elección de ruta, algunos nombres de calle se abrevian para que quepan en su recuadro.
-- El logotipo del título se mantiene en japonés, como parte del arte original. El título en español aparece
-  en la película de introducción y en la tarjeta de memoria.
-- Las pocas frases habladas del juego (audio en japonés) no llevan subtítulos.
+- Hay pocas frases habladas del juego (audio en japonés) que no lleven subtítulos también. La traducción
+  del aviso de la estación está en la wiki, en la sección "Voces del juego" (contiene spoilers).
 
 Más información: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Yuuyami-Doori-Tankentai
