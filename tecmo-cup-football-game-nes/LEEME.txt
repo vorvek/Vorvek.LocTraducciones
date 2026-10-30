@@ -1,5 +1,5 @@
 Tecmo Cup - Football Game (NES) - Nueva traducción al español
-Vorvek.Loc Traducciones - versión 1.2
+Vorvek.Loc Traducciones - versión 1.3
 ================================================================
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -22,15 +22,15 @@ para el archivo con cabecera y otro para el archivo sin cabecera:
     Original:  CRC32 7f801368  SHA-1 6a0b6e0ca8aff6fc78d2d28cc747cacbb5f812ae
 
   Resultado de los dos parches (393.232 bytes, con cabecera):
-               CRC32 588860ff  SHA-1 da3b135f69be398b0e84251a7190fdbdcf644481
+               CRC32 29d9adfe  SHA-1 71eba595569c238bdedfce4f9f30234a4700c577
 
 Si tu archivo tiene otra cabecera de 16 bytes (por ejemplo, 262.160 bytes con otro CRC32), quítala y usa
 el parche sin cabecera: el resultado sale igual, con su propia cabecera.
 
 Parches:
 
-  Tecmo Cup - Football Game (Spain) [T-Es Vorvek.Loc v1.2].xdelta
-  Tecmo Cup - Football Game (Spain) (sin cabecera) [T-Es Vorvek.Loc v1.2].xdelta
+  Tecmo Cup - Football Game (Spain) [T-Es Vorvek.Loc v1.3].xdelta
+  Tecmo Cup - Football Game (Spain) (sin cabecera) [T-Es Vorvek.Loc v1.3].xdelta
 
 Cómo aplicar el parche
 ----------------------
@@ -54,6 +54,8 @@ Qué incluye
 - Menús, nombres de equipos y países, estadísticas y órdenes del partido, con palabras completas
   ("Regate", "Marca", "Segada"); "¿Y ahora?" y "¿A quién?" redibujados en la fuente pequeña.
 - Fuente con acentos (á é í ó ú Á É Í Ó Ú ü) y el signo º.
+- Corrección de un error de la versión española: la experiencia de los goles, las paradas y los
+  balones recuperados iba al portero o a nadie. Ahora va al jugador que hace la acción.
 
 Notas
 -----
