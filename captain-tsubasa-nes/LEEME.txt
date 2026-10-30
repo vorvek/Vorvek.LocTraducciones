@@ -1,0 +1,66 @@
+Captain Tsubasa (NES) - Traducción al español
+Vorvek.Loc Traducciones - versión 1.0
+================================================================
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▒░ Campeones: Oliver y Benji ░▒▓▓▓▓
+▓▓▓▓▒░___________________________░▒▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+Este parche traduce al español "Captain Tsubasa" (Tecmo, 1988) para Famicom, el juego japonés del que
+después salió "Tecmo Cup". La traducción se ha hecho desde el texto japonés, con los nombres del doblaje
+español de la serie "Campeones: Oliver y Benji": Oliver, Benji, Tom, Mark Lenders, Julian Ross, el
+Newteam, el Tojú...
+
+Necesitas el cartucho japonés que coincida con No-Intro: "Captain Tsubasa (Japan)". Hay un parche para
+el archivo con cabecera y otro para el archivo sin cabecera:
+
+  Captain Tsubasa (Japan).nes  (262.160 bytes, con cabecera)
+    Original:  CRC32 0f68ed1b  SHA-1 ba366fefe13a3746510acab2fe73d4db1fd8dce4
+
+  Captain Tsubasa (Japan).unh  (262.144 bytes, sin cabecera)
+    Original:  CRC32 f3f1269d  SHA-1 16a5c45c00862cd2f9c190117f91a8e4c142e8b5
+
+  Resultado de los dos parches (393.232 bytes, con cabecera):
+               CRC32 d01014ee  SHA-1 e9ef35a7fbcdee57fc46d36507a4322a91cd0d15
+
+Si tu archivo tiene otra cabecera de 16 bytes (por ejemplo, 262.160 bytes con otro CRC32), quítala y usa
+el parche sin cabecera: el resultado sale igual, con su propia cabecera.
+
+Parches:
+
+  Captain Tsubasa (Japan) [T-Es Vorvek.Loc v1.0].xdelta
+  Captain Tsubasa (Japan) (sin cabecera) [T-Es Vorvek.Loc v1.0].xdelta
+
+Cómo aplicar el parche
+----------------------
+- Windows: xdelta UI o Delta Patcher. Elige el parche, el archivo original y un nombre para el archivo nuevo
+  (con extensión .nes).
+- Navegador: Rom Patcher JS (https://www.marcrobledo.com/RomPatcher.js/) también admite .xdelta.
+- Línea de comandos:
+    xdelta3 -d -s "archivo original.nes" "parche.xdelta" "archivo nuevo.nes"
+
+El juego parcheado ocupa 384 KB: el parche amplía la ROM del programa de 128 a 256 KB para tener sitio para
+el texto en español. Probado en Mesen.
+
+Qué incluye
+-----------
+- Narraciones de los partidos, con los nombres de los tiros especiales del doblaje: T. del Tigre,
+  T. con efecto, Catapulta, Tigre Gemelo, T. Deslizante, Cañonazo, Ataque Eiffel...
+- Escenas de la historia, el torneo escolar y el torneo juvenil de Francia, la aventura por París para
+  buscar a Tom, el locutor, las charlas del entrenador y los gritos de los jugadores.
+- Introducción, título con el logotipo de la serie "Campeones: Oliver y Benji", menús, nombres de
+  jugadores, equipos y países, estadísticas y órdenes del partido. "¿Y ahora?" y "¿A quién?" en una
+  fuente pequeña.
+- Fuente nueva con minúsculas y acentos (á é í ó ú ñ, Á É Í Ó Ú Ñ), en el sitio de los kanas.
+
+Notas
+-----
+- Los nombres siguen el doblaje español de la serie de 1983. Los personajes que no salen en ella (Diaz,
+  Pierre, Schneider, Napoleón...) llevan el nombre que se les dio después en España.
+- Algunos nombres largos (Victorino, Schneider, Hernández, Montgomery) usan letras más estrechas para
+  caber en los recuadros del partido.
+- La posición del jugador (MF, DF, GK...) se muestra en verde junto al nombre, en una sola casilla.
+- La pantalla de contraseña usa letras, números y signos que no se confunden entre sí.
+
+Más información: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Captain-Tsubasa
