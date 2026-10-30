@@ -1,5 +1,5 @@
 Tecmo Cup - Football Game (NES) - Nueva traducción al español
-Vorvek.Loc Traducciones - versión 1.0
+Vorvek.Loc Traducciones - versión 1.1
 ================================================================
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -22,15 +22,15 @@ para el archivo con cabecera y otro para el archivo sin cabecera:
     Original:  CRC32 7f801368  SHA-1 6a0b6e0ca8aff6fc78d2d28cc747cacbb5f812ae
 
   Resultado de los dos parches (393.232 bytes, con cabecera):
-               CRC32 b3c7af68  SHA-1 06ee6d623d2e9184db5a5bca9e9e00afb1b47443
+               CRC32 49973870  SHA-1 3d70b08ef909b2d1d48ec8a5c5f6e46d6d5f61bf
 
 Si tu archivo tiene otra cabecera de 16 bytes (por ejemplo, 262.160 bytes con otro CRC32), quítala y usa
 el parche sin cabecera: el resultado sale igual, con su propia cabecera.
 
 Parches:
 
-  Tecmo Cup - Football Game (Spain) [T-Es Vorvek.Loc v1.0].xdelta
-  Tecmo Cup - Football Game (Spain) (sin cabecera) [T-Es Vorvek.Loc v1.0].xdelta
+  Tecmo Cup - Football Game (Spain) [T-Es Vorvek.Loc v1.1].xdelta
+  Tecmo Cup - Football Game (Spain) (sin cabecera) [T-Es Vorvek.Loc v1.1].xdelta
 
 Cómo aplicar el parche
 ----------------------
@@ -52,7 +52,7 @@ Qué incluye
 - Escenas de la historia, charlas del entrenador, notas de Anne, gritos de los jugadores, anuncio del torneo
   e introducción. Vuelven los chistes de Tecmo que la versión española había quitado.
 - Menús, nombres de equipos y países, estadísticas y órdenes del partido, con palabras completas
-  ("Regate", "Marca", "Robo"); "¿Y ahora?" y "¿A quién?" redibujados en la fuente pequeña.
+  ("Regate", "Marca", "Segada"); "¿Y ahora?" y "¿A quién?" redibujados en la fuente pequeña.
 - Fuente con acentos (á é í ó ú Á É Í Ó Ú ü) y el signo º.
 
 Notas
