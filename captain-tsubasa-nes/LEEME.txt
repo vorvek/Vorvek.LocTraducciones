@@ -22,7 +22,7 @@ el archivo con cabecera y otro para el archivo sin cabecera:
     Original:  CRC32 f3f1269d  SHA-1 16a5c45c00862cd2f9c190117f91a8e4c142e8b5
 
   Resultado de los dos parches (393.232 bytes, con cabecera):
-               CRC32 614bbd21  SHA-1 7f6339adaa0453a2c532014d630f64fdb5d5bf4f
+               CRC32 b76bbcee  SHA-1 df7f325677004d8e09a5661373df9261d364ed75
 
 Si tu archivo tiene otra cabecera de 16 bytes (por ejemplo, 262.160 bytes con otro CRC32), quítala y usa
 el parche sin cabecera: el resultado sale igual, con su propia cabecera.
