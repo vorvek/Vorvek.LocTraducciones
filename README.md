@@ -25,3 +25,4 @@ Este es un repositorio de parches y traducciones para juegos clásicos.
 | Vampir: Kyuuketsuki Densetsu<br><i>Vampir: La leyenda del vampiro</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Vampir-Kyuuketsuki-Densetsu) |
 | Tecmo Cup - Football Game<br><i>Copa Tecmo</i> | NES | Retraducción completa y contenido rehabilitado | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Tecmo-Cup-Football-Game) |
 | Yuuyami Doori Tankentai<br><i>La patrulla del ocaso</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Yuuyami-Doori-Tankentai) |
+| Baroque / Baroque: Yuganda Mousou<br><i>Baroque: Delirios distorsionados</i> | Sega Saturn, PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Baroque) |
