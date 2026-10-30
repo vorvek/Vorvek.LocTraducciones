@@ -1,0 +1,66 @@
+Yuuyami Doori Tankentai (PlayStation) - Traducción al español
+Vorvek.Loc Traducciones - versión 1.0
+=================================================================
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▒░ La patrulla del ocaso ░▒▓▓▓▓
+▓▓▓▓▒░_______________________░▒▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+Este parche traduce al español el juego japonés "夕闇通り探検隊" (Spike, 1999) para PlayStation.
+Necesitas una copia del juego que coincida con Redump (Yuuyami Doori Tankentai, SLPS-02274, disco 61831).
+El disco tiene una sola pista de datos.
+
+Parche:
+
+  Yuuyami Doori Tankentai (Japan) [T-Es Vorvek.Loc v1.0].xdelta
+  Se aplica al archivo "Yuuyami Doori Tankentai (Japan).bin".
+    Original:  CRC32 9d2b1afe  SHA-1 a6025151bddbf2c48157f0f5b91a27e03301a6f9  (723.656.304 bytes)
+    Resultado: CRC32 c2242074  SHA-1 73cbff253b60965c4f233211a0456b461715381b  (729.103.536 bytes)
+
+El archivo nuevo es algo más grande que el original: el archivo de datos del juego (FILELINK.FLB) crece con
+el texto y los gráficos en español, y los vídeos y el audio que van detrás se desplazan. La imagen cabe en un
+CD-R de 74 minutos.
+
+Cómo aplicar el parche
+----------------------
+- Windows: xdelta UI o Delta Patcher. Elige el parche, el archivo original y un nombre para el archivo nuevo.
+- Navegador: Rom Patcher JS (https://www.marcrobledo.com/RomPatcher.js/) también admite .xdelta.
+- Línea de comandos:
+    xdelta3 -d -s "Yuuyami Doori Tankentai (Japan).bin" "parche.xdelta" "Yuuyami Doori Tankentai (Japan) [T-Es].bin"
+
+Después de aplicar el parche:
+- Pon al archivo nuevo el nombre que indica el .cue (o edita la línea FILE del .cue).
+
+Probado en DuckStation.
+
+Qué incluye
+-----------
+- Todo el texto del juego: las escenas del colegio, los paseos por la ciudad, las escenas en casa y de noche,
+  los rumores, las elecciones y los mensajes del sistema.
+- Fuente nueva de ancho variable con acentos, ñ, ¿, ¡ y « ».
+- Subtítulos en español para los textos de la película de introducción. Los dibuja el propio juego encima
+  del vídeo; el vídeo no se ha vuelto a codificar.
+- Gráficos redibujados en español: menús, controles, pantalla de consulta, cuaderno de rumores, tarjetas de
+  cada día, fecha (con el día de la semana en una letra: L M X J V S D), pantallas de guardar y cargar,
+  mensajes de la tarjeta de memoria y aviso inicial.
+- Mapas de la ciudad: rótulos de lugares y calles en el mapa general y en todos los niveles de zoom, mapas
+  ovalados y nombres de calles de la pantalla de elección de ruta, y el mapa del cartel del inicio del paseo.
+- Título de la partida guardada en la tarjeta de memoria: "La patrulla del ocaso".
+
+Notas de traducción
+-------------------
+- La traducción es fiel al original y mantiene su identidad japonesa: nombres, lugares, leyendas, comida y
+  vida escolar no se adaptan.
+- Se mantienen los tratamientos japoneses (-san, -kun, -chan, -senpai, -sensei) y expresiones como
+  "¡Itadakimasu!".
+- Las leyendas urbanas conocidas conservan su nombre japonés (la Kuchisake-onna, Hanako-san). Los
+  títulos descriptivos de los rumores se traducen ("La maldición del cuervo").
+- Los nombres propios de los lugares se dejan en japonés (Hirumidai, Sakanoue, Koshu Kaido); la parte
+  descriptiva se traduce ("Calle de la obra", "Puente Hirumi").
+- En la pantalla de elección de ruta, algunos nombres de calle se abrevian para que quepan en su recuadro.
+- El logotipo del título se mantiene en japonés, como parte del arte original. El título en español aparece
+  en la película de introducción y en la tarjeta de memoria.
+- Las pocas frases habladas del juego (audio en japonés) no llevan subtítulos.
+
+Más información: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Yuuyami-Doori-Tankentai
