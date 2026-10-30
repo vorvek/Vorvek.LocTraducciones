@@ -1,0 +1,66 @@
+Tecmo Cup - Football Game (NES) - Nueva traducción al español
+Vorvek.Loc Traducciones - versión 1.0
+================================================================
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▒░ Copa Tecmo ░▒▓▓▓▓
+▓▓▓▓▒░____________░▒▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+Este parche traduce de nuevo al español "Tecmo Cup - Football Game" (Tecmo, 1992) para NES, la versión
+que se vendió en España. Aquella traducción tenía frases en orden equivocado, sentidos al revés y textos
+cortados; esta se ha hecho desde el texto original (el japonés de Captain Tsubasa para las narraciones de
+los partidos y el inglés de Tecmo para la historia, que Tecmo escribió para esta versión).
+
+Necesitas el cartucho español que coincida con No-Intro: "Tecmo Cup - Football Game (Spain)". Hay un parche
+para el archivo con cabecera y otro para el archivo sin cabecera:
+
+  Tecmo Cup - Football Game (Spain).nes  (262.160 bytes, con cabecera)
+    Original:  CRC32 47f7fe4e  SHA-1 7a5c753c2cf7ebfd5cf2cb21e5b382cfb005f33a
+
+  Tecmo Cup - Football Game (Spain).unh  (262.144 bytes, sin cabecera)
+    Original:  CRC32 7f801368  SHA-1 6a0b6e0ca8aff6fc78d2d28cc747cacbb5f812ae
+
+  Resultado de los dos parches (393.232 bytes, con cabecera):
+               CRC32 b3c7af68  SHA-1 06ee6d623d2e9184db5a5bca9e9e00afb1b47443
+
+Si tu archivo tiene otra cabecera de 16 bytes (por ejemplo, 262.160 bytes con otro CRC32), quítala y usa
+el parche sin cabecera: el resultado sale igual, con su propia cabecera.
+
+Parches:
+
+  Tecmo Cup - Football Game (Spain) [T-Es Vorvek.Loc v1.0].xdelta
+  Tecmo Cup - Football Game (Spain) (sin cabecera) [T-Es Vorvek.Loc v1.0].xdelta
+
+Cómo aplicar el parche
+----------------------
+- Windows: xdelta UI o Delta Patcher. Elige el parche, el archivo original y un nombre para el archivo nuevo
+  (con extensión .nes).
+- Navegador: Rom Patcher JS (https://www.marcrobledo.com/RomPatcher.js/) también admite .xdelta.
+- Línea de comandos:
+    xdelta3 -d -s "archivo original.nes" "parche.xdelta" "archivo nuevo.nes"
+
+El juego parcheado ocupa 384 KB: el parche amplía la ROM del programa de 128 a 256 KB para tener sitio para
+el texto en español. La cabecera nueva (NES 2.0) indica que el juego es PAL. Probado en Mesen.
+
+Qué incluye
+-----------
+- Narraciones de los partidos traducidas de nuevo desde el japonés, con las frases en el orden correcto
+  ("¡Nº 7, Nº 8 y Nº 10 lo rodean!", "¡La pelota pierde fuerza!") y unos 70 mensajes que la versión española
+  tenía desactivados: noticias del marcador, triplete, gritos de los porteros, rivales y la explicación
+  completa de la tanda de penaltis.
+- Escenas de la historia, charlas del entrenador, notas de Anne, gritos de los jugadores, anuncio del torneo
+  e introducción. Vuelven los chistes de Tecmo que la versión española había quitado.
+- Menús, nombres de equipos y países, estadísticas y órdenes del partido, con palabras completas
+  ("Regate", "Marca", "Robo"); "¿Y ahora?" y "¿A quién?" redibujados en la fuente pequeña.
+- Fuente con acentos (á é í ó ú Á É Í Ó Ú ü) y el signo º.
+
+Notas
+-----
+- Se mantienen los nombres de Tecmo Cup: personajes, equipos (RAZORS, SEALS, TOPS...) y tiros especiales
+  de la versión española (el Rugido de Damon, el Cañonazo...), solo con la ortografía corregida.
+- En el menú de defensa, la orden elegida ocupa la fila entera de la ventana y tapa el nombre del defensor,
+  que sigue a la vista en la ventana de estadísticas.
+- La pantalla de título conserva el logotipo original y añade el crédito de la traducción.
+
+Más información: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Tecmo-Cup-Football-Game
