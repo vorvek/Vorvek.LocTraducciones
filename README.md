@@ -23,5 +23,5 @@ Este es un repositorio de parches y traducciones para juegos clásicos.
 | Jaseiken Necromancer<br><i>Nigromante: La espada maldita</i> | PC Engine | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Jaseiken-Necromancer) |
 | The Legacy: Realm of Terror<br><i>El legado: Reino del terror</i> | MS-DOS | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/The-Legacy) |
 | Vampir: Kyuuketsuki Densetsu<br><i>Vampir: La leyenda del vampiro</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Vampir-Kyuuketsuki-Densetsu) |
-| Tecmo Cup - Football Game<br><i>Copa Tecmo</i> | NES | Re-traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Tecmo-Cup-Football-Game) |
+| Tecmo Cup - Football Game<br><i>Copa Tecmo</i> | NES | Retraducción completa y contenido rehabilitado | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Tecmo-Cup-Football-Game) |
 | Yuuyami Doori Tankentai<br><i>La patrulla del ocaso</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Yuuyami-Doori-Tankentai) |
