@@ -1,0 +1,70 @@
+Captain Tsubasa Vol. II: Super Striker (NES) - Traducción al español
+Vorvek.Loc Traducciones - versión 1.0
+================================================================
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▒░ Campeones - Oliver y Benji - Supergoleador ░▒▓▓▓▓
+▓▓▓▓▒░____________________________________________░▒▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+Este parche traduce al español "Captain Tsubasa Vol. II: Super Striker" (Tecmo, 1990) para Famicom. La
+traducción se ha hecho desde el texto japonés, con los nombres del doblaje español de la serie "Campeones:
+Oliver y Benji": Oliver, Benji, Tom, Mark Lenders, Julian Ross, el Newteam, el Tojú...
+
+Necesitas el cartucho japonés que coincida con No-Intro: "Captain Tsubasa II - Super Striker (Japan)". Hay
+un parche para el archivo con cabecera y otro para el archivo sin cabecera:
+
+  Captain Tsubasa II - Super Striker (Japan).nes  (393.232 bytes, con cabecera)
+    Original:  CRC32 149dac0c  SHA-1 49bb04a2165f80d1eb936b259e68cb9cf2b57143
+
+  Captain Tsubasa II - Super Striker (Japan).unh  (393.216 bytes, sin cabecera)
+    Original:  CRC32 31b44c65  SHA-1 ad2ec724d6e2dc8e396995431dd2e10995222ed8
+
+  Resultado de los dos parches (655.376 bytes, con cabecera):
+               CRC32 a6b65c53  SHA-1 d038f2b208d15273d496acdfcb22041c372f1ea8
+
+Si tu archivo tiene otra cabecera de 16 bytes, quítala y usa el parche sin cabecera: el resultado sale
+igual, con su propia cabecera.
+
+Parches:
+
+  Captain Tsubasa II - Super Striker (Japan) [T-Es Vorvek.Loc v1.0].xdelta
+  Captain Tsubasa II - Super Striker (Japan) (sin cabecera) [T-Es Vorvek.Loc v1.0].xdelta
+
+Cómo aplicar el parche
+----------------------
+- Windows: xdelta UI o Delta Patcher. Elige el parche, el archivo original y un nombre para el archivo nuevo
+  (con extensión .nes).
+- Navegador: Rom Patcher JS (https://www.marcrobledo.com/RomPatcher.js/) también admite .xdelta.
+- Línea de comandos:
+    xdelta3 -d -s "archivo original.nes" "parche.xdelta" "archivo nuevo.nes"
+
+El juego parcheado ocupa 640 KB: el parche amplía la ROM del programa de 256 a 512 KB para tener sitio para
+el texto en español. Probado en Mesen.
+
+Qué incluye
+-----------
+- Historia completa: la Copa Río de Oliver en Brasil, el campeonato escolar, la Copa Japón y el Mundial,
+  con el final del juego.
+- Narraciones de los partidos, con los gritos de los jugadores y los nombres de los tiros especiales.
+- Reuniones del equipo, con los datos de cada rival.
+- Título con el logotipo de la serie "Campeones: Oliver y Benji" y el subtítulo "Supergoleador", también
+  en su versión pequeña de la presentación de los partidos.
+- Menús, nombres de jugadores, equipos y países, estadísticas y órdenes del partido.
+- Fuente nueva con minúsculas y acentos (á é í ó ú ñ, Á É Í Ó Ú Ñ), en el sitio de los kanas.
+
+Notas
+-----
+- Los nombres siguen el doblaje español de la serie de 1983. Nankatsu es el Newteam, y su instituto, el
+  Colegio Newpi. Los extranjeros que no tienen nombre en el doblaje se quedan como están. Las técnicas que
+  no salen en el doblaje se han traducido desde el japonés.
+- Becky Pearson: Youko Katagiri se creó para este juego y no aparece en ninguna otra parte. Es la hermana de
+  Katagiri, que en el doblaje se llama Kirk Pearson, así que aquí se llama Becky Pearson.
+- El entrenador Takahashi mantiene su nombre.
+- Las fichas y las listas de jugadores muestran 9 casillas por nombre. En la pantalla con banquillo solo caben
+  6, y los nombres más largos acaban en punto (Babin.). Algunos nombres usan letras más estrechas para caber.
+- La pantalla de contraseña usa letras, números y signos que no se confunden entre sí. La casilla F (Fin)
+  termina de escribirla.
+- El rótulo MEETING de las reuniones se queda en inglés.
+
+Más información: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Captain-Tsubasa-II

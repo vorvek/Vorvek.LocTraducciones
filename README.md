@@ -27,3 +27,4 @@ Este es un repositorio de parches y traducciones para juegos clásicos.
 | Yuuyami Doori Tankentai<br><i>La Patrulla del Ocaso</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Yuuyami-Doori-Tankentai) |
 | Baroque / Baroque: Yuganda Mousou<br><i>Baroque: Delirios distorsionados</i> | Sega Saturn, PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Baroque) |
 | Captain Tsubasa<br><i>Campeones: Oliver y Benji</i> | NES | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Captain-Tsubasa) |
+| Captain Tsubasa Vol. II: Super Striker<br><i>Campeones - Oliver y Benji - Supergoleador</i> | NES | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Captain-Tsubasa-II) |
