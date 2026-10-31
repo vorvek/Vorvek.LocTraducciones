@@ -1,5 +1,5 @@
 Yuuyami Doori Tankentai (PlayStation) - Traducción al español
-Vorvek.Loc Traducciones - versión 1.1
+Vorvek.Loc Traducciones - versión 1.2
 =================================================================
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -13,10 +13,10 @@ El disco tiene una sola pista de datos.
 
 Parche:
 
-  Yuuyami Doori Tankentai (Japan) [T-Es Vorvek.Loc v1.1].xdelta
+  Yuuyami Doori Tankentai (Japan) [T-Es Vorvek.Loc v1.2].xdelta
   Se aplica al archivo "Yuuyami Doori Tankentai (Japan).bin".
     Original:  CRC32 9d2b1afe  SHA-1 a6025151bddbf2c48157f0f5b91a27e03301a6f9  (723.656.304 bytes)
-    Resultado: CRC32 d0c06e7f  SHA-1 d26b20f7cd78ce87484c16427f78d580efab7dcb  (729.103.536 bytes)
+    Resultado: CRC32 4ce295c9  SHA-1 8e58dd3388669a06da03ea92629847472d139825  (729.103.536 bytes)
 
 El archivo nuevo es algo más grande que el original: el archivo de datos del juego (FILELINK.FLB) crece con
 el texto y los gráficos en español, y los vídeos y el audio que van detrás se desplazan. La imagen cabe en un
@@ -41,9 +41,10 @@ Qué incluye
 - Fuente nueva de ancho variable con acentos, ñ, ¿, ¡ y « ».
 - Subtítulos en español para los textos de la película de introducción. Los dibuja el propio juego encima
   del vídeo; el vídeo no se ha vuelto a codificar.
-- Gráficos redibujados en español: menús, controles, pantalla de consulta, cuaderno de rumores, tarjetas de
-  cada día, fecha (con el día de la semana en una letra: L M X J V S D), pantallas de guardar y cargar,
-  mensajes de la tarjeta de memoria y aviso inicial.
+- Subtítulo para la voz que se oye cuando aparece el cuervo.
+- Gráficos redibujados en español: menús, menú de pausa, controles, pantalla de consulta, cuaderno de
+  rumores, tarjetas de cada día, fecha (con el día de la semana en una letra: L M X J V S D), pantallas de
+  guardar y cargar, mensajes de la tarjeta de memoria y aviso inicial.
 - Mapas de la ciudad: rótulos de lugares y calles en el mapa general y en todos los niveles de zoom, mapas
   ovalados y nombres de calles de la pantalla de elección de ruta, y el mapa del cartel del inicio del paseo.
 - Pantalla de título: el título en español, "La Patrulla del Ocaso", debajo del logotipo japonés.
