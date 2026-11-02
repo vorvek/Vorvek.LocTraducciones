@@ -28,3 +28,4 @@ Este es un repositorio de parches y traducciones para juegos clásicos.
 | Baroque / Baroque: Yuganda Mousou<br><i>Baroque: Delirios distorsionados</i> | Sega Saturn, PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Baroque) |
 | Captain Tsubasa<br><i>Campeones: Oliver y Benji</i> | NES / Famicom | Localización completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Captain-Tsubasa) |
 | Captain Tsubasa Vol. II: Super Striker<br><i>Campeones - Oliver y Benji - Supergoleador</i> | NES / Famicom | Localización completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Captain-Tsubasa-II) |
+| Gungriffon: The Eurasian Conflict<br><i>Gungriffon - El Conflicto Euroasiático</i> | Sega Saturn | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Gungriffon-The-Eurasian-Conflict) |
