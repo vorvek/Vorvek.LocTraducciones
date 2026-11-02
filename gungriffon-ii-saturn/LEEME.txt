@@ -48,14 +48,15 @@ Qué incluye
 - Mensajes de la misión en la cabina.
 - Menús y pantallas: menú principal, opciones, asignación de botones, clasificación, selección de misión, de arma y de punto,
   resultado del combate y mapas, con los nombres de lugares.
-- Los nombres de escenario y de operación también se traducen (por ejemplo, PREEMPTIVE ATTACK = ATAQUE PREVENTIVO).
+- Los nombres de escenario y de operación también se traducen (por ejemplo, PREEMPTIVE ATTACK = ATAQUE PREVENTIVO). La última
+  misión se llama "BOUNCER" originalmente, pero "PORTERO" quedaba un poco flojo, así que se ha traducido por "ASALTO FINAL".
 
 Notas
 -----
 - La radio: Lily de Berlín es la locutora de una emisora enemiga. Los soldados de la unidad la oyen y comentan las noticias
-  entre ellos, y ella no los oye. Esta escena no tiene guion en el disco: los subtítulos se han sacado del audio, con
-  efectos de radio y explosiones encima. Algunas frases no se entienden, y en esos casos el subtítulo lleva «…» o la lectura
-  más probable. Pulsar Start en las instrucciones corta la escena.
+  entre ellos durante las pantallas de briefing. Estas escenas no tienen guion en el disco: los subtítulos se han sacado del
+  audio, con efectos de radio y explosiones encima. Algunas frases no se entienden, y en esos casos el subtítulo lleva «…» o
+  la lectura más probable.
 - Las voces siguen en japonés y en inglés, y los comentarios hablados del resultado tienen su texto en pantalla.
 - Se mantienen en inglés, como en el original japonés, la secuencia de arranque del ordenador y los instrumentos de la cabina.
 - Las repeticiones necesitan un cartucho de RAM.
