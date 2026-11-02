@@ -22,7 +22,7 @@ Pistas del disco
     Original:  CRC32 deb1d5d9  SHA-1 4a9b2612d5a1642a7adce0228b3b1b9e88d73b82  (84.255.696 bytes)
     Parche:    Gungriffon II (Japan) (Track 01) [T-Es Vorvek.Loc v1.0].xdelta
     Resultado: "Gungriffon II (Japan) [T-Es] (Track 01).bin"
-               CRC32 c446627a  SHA-1 c55a68ebce414f0dd049c26743749957b1ca110a  (84.255.696 bytes)
+               CRC32 8673cf1b  SHA-1 7942aa8a63fd86a3085b6305e27794fdbc7354a3  (84.255.696 bytes)
   Pistas 2 a 44 (audio): no cambian. Déjalas como están.
   Cue incluido: "Gungriffon II (Japan) [T-Es] (Redump).cue". Usa el archivo nuevo de la pista de datos y las pistas de audio originales, en la misma carpeta.
 
