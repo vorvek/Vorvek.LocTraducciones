@@ -1,0 +1,65 @@
+Gungriffon II (Sega Saturn) - Traducción al español
+Vorvek.Loc Traducciones - versión 1.0
+=================================================================
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▒░ Gungriffon II ░▒▓▓▓▓
+▓▓▓▓▒░_______________░▒▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+Este parche traduce al español el juego japonés "ガングリフォンII" (Gungriffon II, Game Arts, 1998) para Sega Saturn. La
+traducción parte del japonés y mantiene el estilo de una orden militar, con los términos actuales de las Fuerzas Armadas de
+España. Las escenas de radio antes de cada misión llevan subtítulos en español.
+Necesitas una copia del juego que coincida con Redump: Gungriffon II (Japan), T-4510G, T-4511G, versión 1.001
+(http://redump.org/disc/24403/).
+El disco tiene 44 pistas: la de datos (pista 1) y 43 de audio.
+
+El parche se aplica a la pista de datos de un volcado con pistas separadas, como los de Redump.
+
+Pistas del disco
+----------------
+  Pista 1 (datos): "Gungriffon II (Japan) (Track 01).bin"
+    Original:  CRC32 deb1d5d9  SHA-1 4a9b2612d5a1642a7adce0228b3b1b9e88d73b82  (84.255.696 bytes)
+    Parche:    Gungriffon II (Japan) (Track 01) [T-Es Vorvek.Loc v1.0].xdelta
+    Resultado: "Gungriffon II (Japan) [T-Es] (Track 01).bin"
+               CRC32 c446627a  SHA-1 c55a68ebce414f0dd049c26743749957b1ca110a  (84.255.696 bytes)
+  Pistas 2 a 44 (audio): no cambian. Déjalas como están.
+  Cue incluido: "Gungriffon II (Japan) [T-Es] (Redump).cue". Usa el archivo nuevo de la pista de datos y las pistas de audio originales, en la misma carpeta.
+
+Cómo aplicar el parche
+----------------------
+- Windows: xdelta UI o Delta Patcher. Elige el parche, el archivo original y un nombre para el archivo nuevo.
+- Navegador: Rom Patcher JS (https://www.marcrobledo.com/RomPatcher.js/) también admite .xdelta.
+- Línea de comandos:
+    xdelta3 -d -s "Gungriffon II (Japan) (Track 01).bin" "Gungriffon II (Japan) (Track 01) [T-Es Vorvek.Loc v1.0].xdelta" "Gungriffon II (Japan) [T-Es] (Track 01).bin"
+
+Después de aplicar el parche:
+- Pon al archivo nuevo el nombre que indica el .cue (o edita las líneas FILE del .cue).
+- Abre "Gungriffon II (Japan) [T-Es] (Redump).cue" en el emulador. Para comprobar el resultado, compara el CRC32 o el SHA-1 con los valores de arriba.
+
+Probado en Ymir y en MiSTer.
+
+Qué incluye
+-----------
+- Todo el texto del juego: instrucciones de las misiones, datos de las unidades y las armas, mensajes y avisos.
+- Fuente nueva de ancho variable para los textos, con acentos, ñ, ¿ y ¡.
+- Subtítulos en español en las 8 escenas de radio, en las instrucciones de cada misión del modo escenario.
+- Introducción: los textos de la presentación y el personal.
+- Mensajes de la misión en la cabina.
+- Menús y pantallas: menú principal, opciones, asignación de botones, clasificación, selección de misión, de arma y de punto,
+  resultado del combate y mapas, con los nombres de lugares.
+- Los nombres de escenario y de operación también se traducen (por ejemplo, PREEMPTIVE ATTACK = ATAQUE PREVENTIVO).
+
+Notas
+-----
+- La radio: Lily de Berlín es la locutora de una emisora enemiga. Los soldados de la unidad la oyen y comentan las noticias
+  entre ellos, y ella no los oye. Esta escena no tiene guion en el disco: los subtítulos se han sacado del audio, con
+  efectos de radio y explosiones encima. Algunas frases no se entienden, y en esos casos el subtítulo lleva «…» o la lectura
+  más probable. Pulsar Start en las instrucciones corta la escena.
+- Las voces siguen en japonés y en inglés, y los comentarios hablados del resultado tienen su texto en pantalla.
+- Se mantienen en inglés, como en el original japonés, la secuencia de arranque del ordenador y los instrumentos de la cabina.
+- Las repeticiones necesitan un cartucho de RAM.
+
+Créditos
+--------
+- Traducción, programación y gráficos: Vorvek.Loc Traducciones.
