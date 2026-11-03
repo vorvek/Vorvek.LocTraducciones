@@ -24,6 +24,7 @@ Parches y traducciones al español para juegos clásicos.
 | Germs: Nerawareta Machi<br><i>Germs: La ciudad señalada</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Germs-Nerawareta-Machi) |
 | Gungriffon II<br><i>Gungriffon II</i> | Sega Saturn | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Gungriffon-II) |
 | Gungriffon: The Eurasian Conflict<br><i>Gungriffon - El Conflicto Euroasiático</i> | Sega Saturn | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Gungriffon-The-Eurasian-Conflict) |
+| Horror Tour / Zeddas: Servant of Sheol<br><i>Horror Tour</i> | Sega Saturn, PC (Windows 3.1) | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Horror-Tour) |
 | Jaseiken Necromancer<br><i>Nigromante: La espada maldita</i> | PC Engine / TurboGrafx-16 | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Jaseiken-Necromancer) |
 | Laplace no Ma<br><i>El demonio de Laplace</i> | PC Engine CD / TurboGrafx-CD | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Laplace-no-Ma) |
 | Tecmo Cup - Football Game<br><i>Copa Tecmo</i> | NES / Famicom | Retraducción completa y contenido rehabilitado | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Tecmo-Cup-Football-Game) |
