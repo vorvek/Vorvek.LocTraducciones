@@ -1,5 +1,5 @@
 Laplace no Ma (PC Engine Super CD-ROM²) - Traducción al español
-Vorvek.Loc Traducciones - versión 1.0
+Vorvek.Loc Traducciones - versión 1.1
 =================================================================
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -13,10 +13,10 @@ El parche solo cambia la pista 2 (datos); las pistas de audio no cambian.
 
 Parche:
 
-  Laplace no Ma (Japan) (Track 02) [T-Es Vorvek.Loc v1.0].xdelta
+  Laplace no Ma (Japan) (Track 02) [T-Es Vorvek.Loc v1.1].xdelta
   Se aplica al archivo "Laplace no Ma (Japan) (Track 02).bin".
     Original:  CRC32 f909ecc2  SHA-1 f91e497825d0ac8583bbf232e5050c7af699bb8c
-    Resultado: CRC32 d6cf60e8  SHA-1 518b4a1cf5b0ba58175fb19484fad3fc7f56a420
+    Resultado: CRC32 242086d6  SHA-1 07fc6d8f9da91add0fc5581e3be0b8e50424fb22
 
 Cómo aplicar el parche
 ----------------------
