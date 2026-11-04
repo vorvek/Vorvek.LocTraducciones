@@ -27,6 +27,7 @@ Parches y traducciones al español para juegos clásicos.
 | Horror Tour / Zeddas: Servant of Sheol<br><i>Horror Tour</i> | Sega Saturn, PC (Windows 3.1) | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Horror-Tour) |
 | Jaseiken Necromancer<br><i>Nigromante: La espada maldita</i> | PC Engine / TurboGrafx-16 | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Jaseiken-Necromancer) |
 | Laplace no Ma<br><i>El demonio de Laplace</i> | PC Engine CD / TurboGrafx-CD | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Laplace-no-Ma) |
+| Sweet Home<br><i>Sweet Home</i> | NES / Famicom | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Sweet-Home) |
 | Tecmo Cup - Football Game<br><i>Copa Tecmo</i> | NES / Famicom | Retraducción completa y contenido rehabilitado | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Tecmo-Cup-Football-Game) |
 | The Legacy: Realm of Terror<br><i>El legado: Reino del terror</i> | MS-DOS | Traducción completa y parche de compatibilidad | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/The-Legacy) |
 | Vampir: Kyuuketsuki Densetsu<br><i>Vampir: La leyenda del vampiro</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Vampir-Kyuuketsuki-Densetsu) |
