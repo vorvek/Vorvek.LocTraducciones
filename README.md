@@ -21,6 +21,7 @@ Parches y traducciones al español para juegos clásicos.
 | Baroque / Baroque: Yuganda Mousou<br><i>Baroque: Delirios distorsionados</i> | Sega Saturn, PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Baroque) |
 | Captain Tsubasa<br><i>Campeones: Oliver y Benji</i> | NES / Famicom | Localización completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Captain-Tsubasa) |
 | Captain Tsubasa Vol. II: Super Striker<br><i>Campeones - Oliver y Benji - Supergoleador</i> | NES / Famicom | Localización completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Captain-Tsubasa-II) |
+| Death Bringer<br><i>Death Bringer - El Caballero de la Oscuridad</i> | Mega-CD | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Death-Bringer-Mega-CD) |
 | Germs: Nerawareta Machi<br><i>Germs: La ciudad señalada</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Germs-Nerawareta-Machi) |
 | Gungriffon II<br><i>Gungriffon II</i> | Sega Saturn | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Gungriffon-II) |
 | Gungriffon: The Eurasian Conflict<br><i>Gungriffon - El Conflicto Euroasiático</i> | Sega Saturn | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Gungriffon-The-Eurasian-Conflict) |
