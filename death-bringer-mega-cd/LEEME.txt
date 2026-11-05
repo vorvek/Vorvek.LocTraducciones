@@ -22,7 +22,7 @@ El parche se aplica a la pista de datos (pista 01). Las pistas de audio (02 a 14
     Original:  CRC32 ef2969c5  SHA-1 11e848751ab37e7819f0a383ac411ccae47a350d  (37.930.704 bytes)
     Parche:    Death Bringer (Japan) (Track 01) [T-Es Vorvek.Loc v1.0].xdelta
     Resultado: "Death Bringer (Japan) [T-Es] (Track 01).bin"
-               CRC32 ffcd0e2c  SHA-1 36a1fdb46b2c01cd20042b8df45b769c5107d2fd  (37.930.704 bytes)
+               CRC32 02a548e5  SHA-1 f5dd35176aa3b831d58bf5795bbe6d1a324814d5  (37.930.704 bytes)
   Pistas 02 a 14 (audio): "Death Bringer (Japan) (Track 02).bin" ... "(Track 14).bin". No cambian.
   Cue incluido: "Death Bringer (Japan) [T-Es] (Redump).cue"
 
