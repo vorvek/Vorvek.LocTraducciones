@@ -35,7 +35,7 @@ Parches y traducciones al español para juegos clásicos.
 | Vampir: Kyuuketsuki Densetsu<br><i>Vampir: La leyenda del vampiro</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Vampir-Kyuuketsuki-Densetsu) |
 | Yuuyami Doori Tankentai<br><i>La Patrulla del Ocaso</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Yuuyami-Doori-Tankentai) |
 
-## Other translations and patches
+## Otras traducciones y parches / Other translations and patches
 
 Parches que no traducen al español. / Patches that do not translate into Spanish.
 
