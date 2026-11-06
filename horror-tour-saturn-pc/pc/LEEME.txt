@@ -2,11 +2,6 @@ Zeddas: Servant of Sheol (PC, Windows 3.1) - Traducción al español
 Vorvek.Loc Traducciones - versión 1.0
 =================================================================
 
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-▓▓▓▓▒░ Horror Tour ░▒▓▓▓▓
-▓▓▓▓▒░_____________░▒▓▓▓▓
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-
 Este parche traduce al español "Zeddas: Servant of Sheol" (Caravan Interactive, 1995) para Windows 3.1, la versión para PC
 de "Horror Tour". Usa el mismo guion que la traducción para Sega Saturn: todas las voces llevan subtítulos en español.
 

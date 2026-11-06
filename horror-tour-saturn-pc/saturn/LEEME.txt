@@ -2,11 +2,6 @@ Horror Tour (Sega Saturn) - Traducción al español
 Vorvek.Loc Traducciones - versión 1.0
 =================================================
 
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-▓▓▓▓▒░ Horror Tour ░▒▓▓▓▓
-▓▓▓▓▒░_____________░▒▓▓▓▓
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-
 Este parche traduce al español el juego japonés "ホラー・ツアー" (Horror Tour, Caravan Interactive, 1995) para Sega Saturn.
 El juego original tiene voces en japonés: todas las voces llevan ahora subtítulos en español.
 El juego pide un cartucho de RAM de 1 MB.

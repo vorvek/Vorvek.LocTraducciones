@@ -2,11 +2,6 @@ Gungriffon II (Sega Saturn) - Traducción al español
 Vorvek.Loc Traducciones - versión 1.0
 =================================================================
 
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-▓▓▓▓▒░ Gungriffon II ░▒▓▓▓▓
-▓▓▓▓▒░_______________░▒▓▓▓▓
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-
 Este parche traduce al español el juego japonés "ガングリフォンII" (Gungriffon II, Game Arts, 1998) para Sega Saturn. La
 traducción parte del japonés y mantiene el estilo de una orden militar, con los términos actuales de las Fuerzas Armadas de
 España. Las escenas de radio antes de cada misión llevan subtítulos en español.

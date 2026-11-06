@@ -3,11 +3,6 @@ Bastard (MSX2) - English retranslation and restoration
 Vorvek.Loc Traducciones - versión 1.0
 ================================================================
 
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-▓▓▓▓▒░ Bastard ░▒▓▓▓▓
-▓▓▓▓▒░_________░▒▓▓▓▓
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-
 (English below.)
 
 ESPAÑOL
@@ -30,8 +25,8 @@ https://msxfx.blogspot.com/2019/11/nuevo-parcheo-bastard.html
     SHA-1 a9baee24e8e52cf84f08bda8e25bc452c76aa5fe
 
   Resultado (737.280 bytes):
-    CRC32 6bfe0035  MD5 52239eb3d5cd99a88d338b43fb336c84
-    SHA-1 e68ddf39aee4cc72387781a6b79475b7de2ac610
+    CRC32 b6a44253  MD5 378cb25b44d9da08e6d32a4675ede889
+    SHA-1 5e30ab57a1deaec29e1d211def6c2056b25060f8
 
 Parche: XAIN720-FX3 [Vorvek.Loc v1.0].xdelta
 
@@ -53,7 +48,7 @@ Qué incluye
 - Fuente: se mantiene la letra gótica original y se redibujaron las letras que no se leían bien (T, I, H, K,
   A, F y L). Se añadieron el apóstrofo, la coma y el punto.
 - Jefe restaurado: el guardián del CAT'S EYE nunca aparecía porque el mapa tenía otra habitación en su
-  lugar. Ahora aparece y defiende el objeto.
+  lugar. Ahora aparece y defiende el objeto: el CAT'S EYE solo aparece cuando se vence al guardián.
 - Efectos de objetos que describe el manual y que no estaban programados:
   - HOLY CLOTH (antes GOD CLOTH): protege de las botellas de veneno que sueltan los enemigos.
   - BIBLE (la iglesia la entrega al nivel 5): hace falta para vestir la HOLY CLOTH, para empuñar la espada
@@ -71,8 +66,11 @@ Notas
 -----
 - El juego no tiene desgaste de equipo: la tienda de reparaciones no repara nada. Su texto es ahora una
   broma sobre eso.
-- El zafiro (SAPPHIRE) es el objeto que dejan los enemigos y que se convierte en oro.
+- El zafiro (SAPPHIRE) del manual son los objetos que dejan los enemigos y parecen monedas de oro en lugar
+  de gemas.
 - Las salas oscuras se ven con el CAT'S EYE; el sótano se ilumina con el GLOW MOSS (antes EMIT MOSS).
+- La segunda ciudad tiene la única tienda de cascos, escudos y armaduras. Se puede cambiar de menú con
+  izquierda/derecha.
 - Volcado y corrección de la segunda ciudad: FX (https://msxfx.blogspot.com/).
 
 Más información: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Bastard-MSX2
@@ -97,8 +95,8 @@ https://msxfx.blogspot.com/2019/11/nuevo-parcheo-bastard.html
     SHA-1 a9baee24e8e52cf84f08bda8e25bc452c76aa5fe
 
   Result (737,280 bytes):
-    CRC32 6bfe0035  MD5 52239eb3d5cd99a88d338b43fb336c84
-    SHA-1 e68ddf39aee4cc72387781a6b79475b7de2ac610
+    CRC32 b6a44253  MD5 378cb25b44d9da08e6d32a4675ede889
+    SHA-1 5e30ab57a1deaec29e1d211def6c2056b25060f8
 
 Patch: XAIN720-FX3 [Vorvek.Loc v1.0].xdelta
 
@@ -119,7 +117,7 @@ What is included
 - Font: the original blackletter font stays; the letters that were hard to read were redrawn (T, I, H, K,
   A, F and L). An apostrophe, a comma and a period were added.
 - Restored boss: the guardian of the CAT'S EYE never appeared, because the map had another room in its
-  place. It now appears and guards the item.
+  place. It now appears and guards the item: the CAT'S EYE appears only when the guardian is defeated.
 - Item effects that the manual describes but that were never programmed:
   - HOLY CLOTH (was GOD CLOTH): protects against the poison bottles that enemies drop.
   - BIBLE (the church gives it at level 5): needed to wear the HOLY CLOTH, to wield the sword BASTARD and
@@ -136,8 +134,10 @@ What is included
 Notes
 -----
 - The game has no equipment wear: the repair shop repairs nothing. Its text is now a joke about that.
-- The SAPPHIRE is the item that enemies drop and that turns into gold.
+- The manual's SAPPHIRE is the item that enemies drop and is shaped like a gold coin instead of a gemstone.
 - Dark rooms can be seen with the CAT'S EYE; the basement is lit by the GLOW MOSS (was EMIT MOSS).
+- The second town has the only shop for helms, shields and armor. You can switch the presented item list
+  with left/right.
 - Dump and second-town fix: FX (https://msxfx.blogspot.com/).
 
 More information: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Bastard-MSX2

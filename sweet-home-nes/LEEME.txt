@@ -2,11 +2,6 @@ Sweet Home (NES) - Traducción al español
 Vorvek.Loc Traducciones - versión 1.0
 ================================================================
 
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-▓▓▓▓▒░ Sweet Home ░▒▓▓▓▓
-▓▓▓▓▒░____________░▒▓▓▓▓
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-
 Este parche traduce al español "Sweet Home" (Capcom, 1989) para Famicom, el juego de terror basado en la
 película del mismo año. Un equipo de televisión entra en la mansión maldita de los Mamiya para fotografiar
 los frescos del pintor Ichiro Mamiya. La traducción se ha hecho desde el texto japonés.
