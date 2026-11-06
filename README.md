@@ -34,3 +34,11 @@ Parches y traducciones al español para juegos clásicos.
 | The Legacy: Realm of Terror<br><i>El legado: Reino del terror</i> | MS-DOS | Traducción completa y parche de compatibilidad | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/The-Legacy) |
 | Vampir: Kyuuketsuki Densetsu<br><i>Vampir: La leyenda del vampiro</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Vampir-Kyuuketsuki-Densetsu) |
 | Yuuyami Doori Tankentai<br><i>La Patrulla del Ocaso</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Yuuyami-Doori-Tankentai) |
+
+## Other translations and patches
+
+Parches que no traducen al español. / Patches that do not translate into Spanish.
+
+| Juego / Game | Sistema / System | Estado / Status | Wiki |
+|---|---|---|---|
+| Bastard<br><i>Bastard</i> | MSX2 | Retraducción al inglés y restauración / English retranslation and restoration | [Enlace / Link](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Bastard-MSX2) |

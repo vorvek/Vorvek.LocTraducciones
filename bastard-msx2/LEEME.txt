@@ -1,0 +1,143 @@
+Bastard (MSX2) - Retraducción al inglés y restauración
+Bastard (MSX2) - English retranslation and restoration
+Vorvek.Loc Traducciones - versión 1.0
+================================================================
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▒░ Bastard ░▒▓▓▓▓
+▓▓▓▓▒░_________░▒▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+(English below.)
+
+ESPAÑOL
+=======
+
+"Bastard" (Xain Soft, 1987) es un juego de rol de acción para MSX2. Un joven sube a la torre de Iriasu,
+llena de monstruos, para encontrar la espada Bastard, la que usó el dios del sol para destruir el mal.
+El juego salió con un texto en inglés muy deficiente y con varios errores de programación. Este parche
+reescribe todo el texto en inglés y restaura el contenido que estaba en el código pero no funcionaba.
+El juego sigue en inglés.
+
+Juego necesario
+---------------
+El parche se aplica a la imagen de disco que FX volcó del disco original y corrigió (el error que impedía
+llegar a la segunda ciudad). Se publicó en su blog:
+https://msxfx.blogspot.com/2019/11/nuevo-parcheo-bastard.html
+
+  XAIN720-FX3.DSK  (737.280 bytes)
+    CRC32 ee63ade2  MD5 1de75d07ab819e7dba84ca951f7d5ff3
+    SHA-1 a9baee24e8e52cf84f08bda8e25bc452c76aa5fe
+
+  Resultado (737.280 bytes):
+    CRC32 6bfe0035  MD5 52239eb3d5cd99a88d338b43fb336c84
+    SHA-1 e68ddf39aee4cc72387781a6b79475b7de2ac610
+
+Parche: XAIN720-FX3 [Vorvek.Loc v1.0].xdelta
+
+Cómo aplicar el parche
+----------------------
+- Windows: xdelta UI o Delta Patcher. Elige el parche, el archivo original y un nombre para el archivo
+  nuevo (con extensión .dsk).
+- Navegador: Rom Patcher JS (https://www.marcrobledo.com/RomPatcher.js/) también admite .xdelta.
+- Línea de comandos:
+    xdelta3 -d -s "XAIN720-FX3.DSK" "XAIN720-FX3 [Vorvek.Loc v1.0].xdelta" "Bastard.dsk"
+
+El juego necesita un MSX2 con unidad de disco y 128 KB de VRAM. La partida se guarda dentro de la imagen
+de disco.
+
+Qué incluye
+-----------
+- Texto en inglés nuevo: menús, tiendas, iglesia, posada, hospital, estado, nombres de objetos y equipo,
+  y el final. Los nombres siguen el manual japonés (SALLET, FIRE HELM, SHIELD, ARMOR, CAT'S EYE, SUNSTONE).
+- Fuente: se mantiene la letra gótica original y se redibujaron las letras que no se leían bien (T, I, H, K,
+  A, F y L). Se añadieron el apóstrofo, la coma y el punto.
+- Jefe restaurado: el guardián del CAT'S EYE nunca aparecía porque el mapa tenía otra habitación en su
+  lugar. Ahora aparece y defiende el objeto.
+- Efectos de objetos que describe el manual y que no estaban programados:
+  - HOLY CLOTH (antes GOD CLOTH): protege de las botellas de veneno que sueltan los enemigos.
+  - BIBLE (la iglesia la entrega al nivel 5): hace falta para vestir la HOLY CLOTH, para empuñar la espada
+    BASTARD y para que aparezca el jefe final.
+  - HOLY WATER (antes SACRED, se cambia por la SUNSTONE en la iglesia): permite usar SAGA, la magia de agua.
+    Con ella, SAGA mata al instante a los enemigos normales (código del juego que nunca se activaba).
+  - FIRE HELM: protege en las salas de fuego, igual que la FIRE CLOTH.
+  - ZALAME: cura el veneno.
+- Errores corregidos:
+  - Comprar el PRIEST BOOK después del nivel 2 daba solo 3 hechizos (para siempre a partir del nivel 5).
+    Ahora da los que corresponden al nivel.
+  - Tras teletransportarse con GARA o ZENA, el juego no reconocía la habitación de llegada.
+
+Notas
+-----
+- El juego no tiene desgaste de equipo: la tienda de reparaciones no repara nada. Su texto es ahora una
+  broma sobre eso.
+- El zafiro (SAPPHIRE) es el objeto que dejan los enemigos y que se convierte en oro.
+- Las salas oscuras se ven con el CAT'S EYE; el sótano se ilumina con el GLOW MOSS (antes EMIT MOSS).
+- Volcado y corrección de la segunda ciudad: FX (https://msxfx.blogspot.com/).
+
+Más información: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Bastard-MSX2
+
+
+ENGLISH
+=======
+
+"Bastard" (Xain Soft, 1987) is an MSX2 action RPG. A young man climbs the monster-infested Tower of Iriasu
+to find the sword Bastard, which the sun god once used to destroy evil. The game shipped with very poor
+English text and several programming bugs. This patch rewrites all the English text and restores content
+that was in the code but did not work.
+
+Required game
+-------------
+The patch applies to the disk image that FX dumped from the original disk and fixed (the bug that made the
+second town unreachable). It was published on his blog:
+https://msxfx.blogspot.com/2019/11/nuevo-parcheo-bastard.html
+
+  XAIN720-FX3.DSK  (737,280 bytes)
+    CRC32 ee63ade2  MD5 1de75d07ab819e7dba84ca951f7d5ff3
+    SHA-1 a9baee24e8e52cf84f08bda8e25bc452c76aa5fe
+
+  Result (737,280 bytes):
+    CRC32 6bfe0035  MD5 52239eb3d5cd99a88d338b43fb336c84
+    SHA-1 e68ddf39aee4cc72387781a6b79475b7de2ac610
+
+Patch: XAIN720-FX3 [Vorvek.Loc v1.0].xdelta
+
+How to apply the patch
+----------------------
+- Windows: xdelta UI or Delta Patcher. Select the patch, the original file and a name for the new file
+  (with the .dsk extension).
+- Browser: Rom Patcher JS (https://www.marcrobledo.com/RomPatcher.js/) also supports .xdelta.
+- Command line:
+    xdelta3 -d -s "XAIN720-FX3.DSK" "XAIN720-FX3 [Vorvek.Loc v1.0].xdelta" "Bastard.dsk"
+
+The game needs an MSX2 with a disk drive and 128 KB of VRAM. The game saves inside the disk image.
+
+What is included
+----------------
+- New English text: menus, shops, church, inn, hospital, status, item and equipment names, and the
+  ending. Names follow the Japanese manual (SALLET, FIRE HELM, SHIELD, ARMOR, CAT'S EYE, SUNSTONE).
+- Font: the original blackletter font stays; the letters that were hard to read were redrawn (T, I, H, K,
+  A, F and L). An apostrophe, a comma and a period were added.
+- Restored boss: the guardian of the CAT'S EYE never appeared, because the map had another room in its
+  place. It now appears and guards the item.
+- Item effects that the manual describes but that were never programmed:
+  - HOLY CLOTH (was GOD CLOTH): protects against the poison bottles that enemies drop.
+  - BIBLE (the church gives it at level 5): needed to wear the HOLY CLOTH, to wield the sword BASTARD and
+    for the final boss to appear.
+  - HOLY WATER (was SACRED, traded for the SUNSTONE at the church): lets you use SAGA, the water spell.
+    With it, SAGA kills normal enemies at once (game code that was never activated).
+  - FIRE HELM: protects in fire rooms, like the FIRE CLOTH.
+  - ZALAME: cures poison.
+- Bug fixes:
+  - Buying the PRIEST BOOK after level 2 gave only 3 spells (forever from level 5). It now gives the
+    spells for your level.
+  - After a GARA or ZENA teleport, the game did not recognize the room you arrived in.
+
+Notes
+-----
+- The game has no equipment wear: the repair shop repairs nothing. Its text is now a joke about that.
+- The SAPPHIRE is the item that enemies drop and that turns into gold.
+- Dark rooms can be seen with the CAT'S EYE; the basement is lit by the GLOW MOSS (was EMIT MOSS).
+- Dump and second-town fix: FX (https://msxfx.blogspot.com/).
+
+More information: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Bastard-MSX2
