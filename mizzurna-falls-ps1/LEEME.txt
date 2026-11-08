@@ -5,8 +5,7 @@ Vorvek.Loc Traducciones - versión 1.0
 Este parche traduce al español el juego japonés "ミザーナフォールズ" (Mizzurna Falls, Human, 1998) para PlayStation.
 Navidad en Mizzurna Falls, un pequeño pueblo de las Montañas Rocosas, en Colorado. Emma Rowland, compañera de
 instituto de Matthew Williams, ha desaparecido, y Matthew empieza a buscarla. El reloj del juego corre en tiempo
-real: cada persona está en un sitio a una hora determinada, y las pistas dicen quién, dónde y cuándo. La
-traducción conserva cada pista con exactitud: horas, días, lugares, nombres y objetos.
+real: cada persona está en un sitio a una hora determinada, y las pistas dicen quién, dónde y cuándo.
 
 Disco original
 --------------
@@ -54,25 +53,21 @@ Qué incluye
   fecha y días de la semana del reloj, fin del juego y los rótulos con los nombres de los retratos.
 - Vídeos: los textos japoneses del vídeo del prólogo y del vídeo de demostración de la pantalla de título
   ahora están en español.
-- Subtítulos en español para la canción "Eternal" cuando suena dentro del juego (la radio, el Bar Wolves y
-  otras escenas).
+- Subtítulos de la canción: la canción "Eternal" está subtitulada cuando suena dentro del juego (la radio,
+  el Bar Wolves y otras escenas).
 
 Notas de traducción
 -------------------
-- Se corrige un error del guion japonés original: cuando Matthew le enseña a Steve Rowland el sobre de Cohen,
-  el japonés dice que el sobre es de Hudson (ハドソン); todas las demás líneas y el propio objeto dicen
-  Cohen. En español dice Cohen. Las dos traducciones al inglés también lo corrigen, sin avisar.
-- Los nombres siguen su forma inglesa habitual cuando la grafía latina del propio juego es rara (Lorraine,
-  Samuel, Liz, Hudson Lang, Morgan Stein). Un nombre que aparece en un cartel del pueblo conserva la grafía del
-  cartel (Hospital Grouver; Lorraine Heinds). Los rótulos de los retratos se han redibujado con esos nombres.
-- El juego transcurre en un pueblo de montaña de Estados Unidos: los carteles, documentos y demás textos en
-  inglés que forman parte del pueblo se mantienen en inglés, como en el original. La hora sigue en formato
-  AM/PM.
-- Español de España, sin tratamientos japoneses, con el registro de cada personaje.
-- La canción "Eternal" se canta en inglés y se mantiene así; los subtítulos traducen la letra inglesa. Algunos
-  vídeos citan versos de la canción en japonés, y esas citas traducen el texto japonés, así que pueden variar
-  un poco respecto a los subtítulos.
-- El vídeo de los créditos finales se deja como está, sin subtítulos.
+- Un error corregido del original: cuando Matthew le enseña a Steve el sobre de Cohen, el japonés dice que
+  el sobre es de Hudson (ハドソン); todas las demás líneas y el propio objeto dicen Cohen. En esta
+  traducción, dice Cohen también.
+- Nombres: siguen su forma inglesa habitual cuando la grafía latina del propio juego es rara (Lorraine,
+  Samuel, Liz, Hudson Lang, Morgan Stein). Si un nombre aparece en un cartel del pueblo, conserva la grafía
+  del cartel (Hospital Grouver; Lorraine Heinds). Los rótulos de los retratos se han redibujado con esos
+  nombres.
+- "Eternal" (el TEMAZO): los subtítulos traducen la letra inglesa (la que suena en el juego). Algunos vídeos
+  citan versos de la canción en japonés, y esas citas traducen el texto japonés, así que hay un par que
+  varían un poco respecto a los subtítulos.
 
 Créditos
 --------
