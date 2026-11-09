@@ -1,0 +1,77 @@
+Death Bringer (PC Engine CD) - Traducción al español
+Vorvek.Loc Traducciones - versión 1.0
+====================================================
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▒░ Death Bringer - El Caballero de la Oscuridad ░▒▓▓▓▓
+▓▓▓▓▒░______________________________________________░▒▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+Este parche traduce al español el juego japonés "Death Bringer - The Knight of Darkness" (Telenet Japan, 1990)
+para PC Engine CD, un port de un clásico de 1988 para PC-9801. El juego original tiene escenas habladas en
+japonés: todas las voces llevan ahora subtítulos en español. Además, el parche mejora el port para hacerlo más
+ágil y agradable de jugar.
+
+IMPORTANTE: el juego parcheado necesita la System Card 3.0 (Super CD-ROM²). El parche requiere memoria extra.
+
+Disco original
+--------------
+Death Bringer - The Knight of Darkness (Japan), TJCD0007, Redump 2410 (http://redump.org/disc/2410/),
+con pistas separadas.
+
+El parche se aplica a la pista de datos (pista 02). Las demás pistas (01 y 03 a 28, audio) no cambian.
+
+  Pista 02 (datos): "Death Bringer - The Knight of Darkness (Japan) (Track 02).bin"
+    Original:  CRC32 cc822800  SHA-1 a21ac71bf4dbe05038683ebcd8c4cde0572cbecd  (12.865.440 bytes)
+    Parche:    Death Bringer - The Knight of Darkness (Japan) (Track 02) [T-Es Vorvek.Loc v1.0].xdelta
+    Resultado: CRC32 7a903cfb  SHA-1 5f67e01722c82a60775ae117b7a4c22841f4118b  (12.865.440 bytes)
+
+Cómo aplicar el parche
+----------------------
+- Windows: xdelta UI o Delta Patcher. Elige el parche, el archivo original y un nombre para el archivo nuevo.
+- Navegador: Rom Patcher JS (https://www.marcrobledo.com/RomPatcher.js/) también admite .xdelta.
+- Línea de comandos:
+    xdelta3 -d -s "Death Bringer - The Knight of Darkness (Japan) (Track 02).bin" "Death Bringer - The Knight of Darkness (Japan) (Track 02) [T-Es Vorvek.Loc v1.0].xdelta" "Track 02 nuevo.bin"
+
+Después de aplicar el parche, sustituye el archivo de la pista 02 por el nuevo (con el mismo nombre), deja las
+demás pistas como están y abre el .cue. Para comprobar el resultado, compara el CRC32 o el SHA-1 con los valores
+de arriba.
+
+Las partidas guardadas con la versión japonesa funcionan; un nombre escrito con kana se ve con otras letras.
+
+Probado en MesenCE y en MiSTer.
+
+Qué incluye
+-----------
+- Traducción de todos los diálogos, menús, tiendas, objetos, armas, hechizos, enemigos, lugares y mensajes.
+- Fuente nueva de ancho variable para los diálogos y los menús, con acentos, ñ, ¿ y ¡.
+- Fuente pequeña con minúsculas, acentos y ñ para los rótulos, los combates y la pantalla de estado.
+- Pantalla de introducción de nombre con alfabeto latino.
+- Subtítulos en español para todas las escenas habladas.
+
+Mejoras
+-------
+El port de PC Engine de este juego se hizo con prisas, así que adicionalmente se le ha dado un lavado de cara para
+hacerlo algo más agradable de jugar:
+- Exploración más ágil: en la ciudad, los giros y los pasos tardan la mitad (la vista 3D usa una tabla
+  precalculada en lugar de una búsqueda lenta).
+- Vuelta más rápida a la calle después de una tienda, una habitación o la pantalla de estado.
+- La vista 3D se queda en pantalla, con todas sus paredes, mientras hay una caja de texto (el original la ponía en
+  negro), y al cerrar la caja ya no hay un momento en negro.
+- Cursor nuevo: una mano que señala, fija, en todos los menús y listas. Se ha introducido para utilizar un poco
+  mejor el espacio en la interfaz y permitir palabras más largas.
+- Colores: los cambios de paleta se hacen durante el retrazado vertical, así que en hardware real ya no aparecen
+  líneas cortas al abrir o cerrar cajas, ni el fondo amarillo al descansar o al cambiar de zona.
+
+Notas
+-----
+- Los nombres propios siguen su forma occidental (Lambard, Remina, Mahavira, Schneefort).
+- La escuela de magia de la naturaleza (自然系, "natural") se llama «Gaia» en esta versión, porque «Natural» no
+  cabe en las listas de las tiendas y de la pantalla de estado.
+- Las siglas de los atributos de la pantalla de estado son las del original (STR, INT, DEX, POW, CON, H P, M P).
+- Cada nombre tiene un espacio fijo en el disco, y algunos nombres de las listas usan una forma corta.
+- El personaje principal no tiene nombre canónico. En el manual simplemente aparece como "Protagonista".
+
+Créditos
+--------
+- Traducción, programación y gráficos: Vorvek.Loc Traducciones.
