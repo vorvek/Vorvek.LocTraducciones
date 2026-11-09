@@ -24,7 +24,7 @@ El parche se aplica a la pista de datos (pista 02). Las demás pistas (01 y 03 a
   Pista 02 (datos): "Death Bringer - The Knight of Darkness (Japan) (Track 02).bin"
     Original:  CRC32 cc822800  SHA-1 a21ac71bf4dbe05038683ebcd8c4cde0572cbecd  (12.865.440 bytes)
     Parche:    Death Bringer - The Knight of Darkness (Japan) (Track 02) [T-Es Vorvek.Loc v1.0].xdelta
-    Resultado: CRC32 7a903cfb  SHA-1 5f67e01722c82a60775ae117b7a4c22841f4118b  (12.865.440 bytes)
+    Resultado: CRC32 f076a2cd  SHA-1 d0d0abdb54f5cc0f4652c353225625a80a52e4af  (12.865.440 bytes)
 
 Cómo aplicar el parche
 ----------------------
