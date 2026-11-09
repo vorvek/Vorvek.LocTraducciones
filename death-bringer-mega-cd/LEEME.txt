@@ -1,5 +1,5 @@
 Death Bringer (Mega-CD) - Traducción al español
-Vorvek.Loc Traducciones - versión 1.0
+Vorvek.Loc Traducciones - versión 1.1
 ===============================================
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -20,9 +20,9 @@ El parche se aplica a la pista de datos (pista 01). Las pistas de audio (02 a 14
 
   Pista 01 (datos): "Death Bringer (Japan) (Track 01).bin"
     Original:  CRC32 ef2969c5  SHA-1 11e848751ab37e7819f0a383ac411ccae47a350d  (37.930.704 bytes)
-    Parche:    Death Bringer (Japan) (Track 01) [T-Es Vorvek.Loc v1.0].xdelta
+    Parche:    Death Bringer (Japan) (Track 01) [T-Es Vorvek.Loc v1.1].xdelta
     Resultado: "Death Bringer (Japan) [T-Es] (Track 01).bin"
-               CRC32 5b79831c  SHA-1 d80e24e9cf5f4da5eec76f854437855a83560cdf  (37.930.704 bytes)
+               CRC32 6bef8128  SHA-1 2bf1dd6b9021b750a0c24d65256ad6eba4380293  (37.930.704 bytes)
   Pistas 02 a 14 (audio): "Death Bringer (Japan) (Track 02).bin" ... "(Track 14).bin". No cambian.
   Cue incluido: "Death Bringer (Japan) [T-Es] (Redump).cue"
 
@@ -31,7 +31,7 @@ Cómo aplicar el parche
 - Windows: xdelta UI o Delta Patcher. Elige el parche, el archivo original y un nombre para el archivo nuevo.
 - Navegador: Rom Patcher JS (https://www.marcrobledo.com/RomPatcher.js/) también admite .xdelta.
 - Línea de comandos:
-    xdelta3 -d -s "Death Bringer (Japan) (Track 01).bin" "Death Bringer (Japan) (Track 01) [T-Es Vorvek.Loc v1.0].xdelta" "Death Bringer (Japan) [T-Es] (Track 01).bin"
+    xdelta3 -d -s "Death Bringer (Japan) (Track 01).bin" "Death Bringer (Japan) (Track 01) [T-Es Vorvek.Loc v1.1].xdelta" "Death Bringer (Japan) [T-Es] (Track 01).bin"
 
 Después de aplicar el parche:
 - Pon al archivo nuevo el nombre que indica el .cue (o edita la línea FILE de la pista 01 en el .cue).
@@ -73,9 +73,12 @@ Notas
   formados por palabras inglesas se traducen (Paso de las Nubes, las Cumbres Oscuras).
 - Abreviaturas de la pantalla de estado: FUE (fuerza), POD (poder), PV (puntos de vida), INT (inteligencia),
   DES (destreza), PM (puntos de magia), NM (nivel de magia).
+- La escuela de magia de la naturaleza (自然系, "natural") se llama «Gaia», como en la versión de PC Engine CD.
+  Las escuelas de magia usan nombres cortos: Aire, Fuego, Tierra, Agua, Mente, Gaia y Vida.
 - Algunos nombres de las listas usan formas cortas, porque cada nombre tiene un espacio fijo en el disco. En los
   combates, los estados usan cinco letras: CAÍDO, HECHZ (hechizado), PARAL (paralizado), PETRF (petrificado)
-  y SUEÑO.
+  y SUEÑO. En la ventana del grupo en combate, cuatro compañeros usan una forma corta: Sumero (Sumerogi),
+  Lara (Laraarcas), Zenos (Zenosbalf) y Arion (Arionora).
 - Se reorganiza la memoria del programa de la introducción para dar espacio a la traducción y a los subtítulos,
   así como a las rutinas mejoradas.
 
