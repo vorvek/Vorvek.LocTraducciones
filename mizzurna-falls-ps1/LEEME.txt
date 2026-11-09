@@ -16,7 +16,7 @@ El disco tiene una sola pista de datos.
              CRC32 a87f3497  SHA-1 c49b2a1203831165e63e1129cfe413d4d23d7656  (399.701.232 bytes)
   Parche:    Mizzurna Falls (Japan) [T-Es Vorvek.Loc v1.0].xdelta
   Resultado: "Mizzurna Falls (Japan) [T-Es].bin"
-             CRC32 5aea3f17  SHA-1 b2870a7416efadc6ff20a1114135e4a694d2c8ce  (422.287.488 bytes)
+             CRC32 0fd669ea  SHA-1 5a6dbdc52294eecbf2dfba178ee9bc39667138fc  (422.287.488 bytes)
 
 El archivo nuevo es más grande que el original: el programa y el archivo de datos del juego (CD.BIN) crecen
 con el texto, la fuente y los gráficos en español, y pasan al final del disco. Los vídeos y el audio no se
