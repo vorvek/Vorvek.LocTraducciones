@@ -24,7 +24,7 @@ El parche se aplica a la pista de datos (pista 02). Las demás pistas (01 y 03 a
   Pista 02 (datos): "Death Bringer - The Knight of Darkness (Japan) (Track 02).bin"
     Original:  CRC32 cc822800  SHA-1 a21ac71bf4dbe05038683ebcd8c4cde0572cbecd  (12.865.440 bytes)
     Parche:    Death Bringer - The Knight of Darkness (Japan) (Track 02) [T-Es Vorvek.Loc v1.1].xdelta
-    Resultado: CRC32 415bde80  SHA-1 bade057ed2ac645d4ef960b658f02f5055add182  (12.865.440 bytes)
+    Resultado: CRC32 7e44f2e8  SHA-1 e78f0bb761905ff8ecc3b72290dd0cdfeaba0d68  (12.865.440 bytes)
 
 Cómo aplicar el parche
 ----------------------
@@ -77,7 +77,8 @@ Cambios en la versión 1.1
   - Niebla reduce a la mitad la puntería de los enemigos durante el resto del combate. (En X68000 los enemigos
     se defienden o huyen; el combate de PC Engine no tiene esas acciones.)
   - Serenar quita el embrujo y el pánico. Avivar despierta.
-  - Robar vida deja el ataque y la puntería de un enemigo en 1 durante el resto del combate.
+  - Robar vida deja el ataque y la puntería de un enemigo en 1 durante el resto del combate. Puede fallar
+    según la resistencia del enemigo (en X68000 no falla nunca).
 - Corrección: nivel de las técnicas. El juego leía mal su tabla de niveles, y cualquier técnica con algo de
   experiencia contaba como nivel 15. Ahora las técnicas suben de nivel con el uso (tabla de la versión de X68000),
   así que el principio del juego es más difícil.
