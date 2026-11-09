@@ -1,5 +1,5 @@
 Death Bringer (Mega-CD) - Traducción al español
-Vorvek.Loc Traducciones - versión 1.1
+Vorvek.Loc Traducciones - versión 1.2
 ===============================================
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -20,9 +20,9 @@ El parche se aplica a la pista de datos (pista 01). Las pistas de audio (02 a 14
 
   Pista 01 (datos): "Death Bringer (Japan) (Track 01).bin"
     Original:  CRC32 ef2969c5  SHA-1 11e848751ab37e7819f0a383ac411ccae47a350d  (37.930.704 bytes)
-    Parche:    Death Bringer (Japan) (Track 01) [T-Es Vorvek.Loc v1.1].xdelta
+    Parche:    Death Bringer (Japan) (Track 01) [T-Es Vorvek.Loc v1.2].xdelta
     Resultado: "Death Bringer (Japan) [T-Es] (Track 01).bin"
-               CRC32 6bef8128  SHA-1 2bf1dd6b9021b750a0c24d65256ad6eba4380293  (37.930.704 bytes)
+               CRC32 4530f6ce  SHA-1 025aefca2ea514a1610b8d94582d79224bfa4a16  (37.930.704 bytes)
   Pistas 02 a 14 (audio): "Death Bringer (Japan) (Track 02).bin" ... "(Track 14).bin". No cambian.
   Cue incluido: "Death Bringer (Japan) [T-Es] (Redump).cue"
 
@@ -31,7 +31,7 @@ Cómo aplicar el parche
 - Windows: xdelta UI o Delta Patcher. Elige el parche, el archivo original y un nombre para el archivo nuevo.
 - Navegador: Rom Patcher JS (https://www.marcrobledo.com/RomPatcher.js/) también admite .xdelta.
 - Línea de comandos:
-    xdelta3 -d -s "Death Bringer (Japan) (Track 01).bin" "Death Bringer (Japan) (Track 01) [T-Es Vorvek.Loc v1.1].xdelta" "Death Bringer (Japan) [T-Es] (Track 01).bin"
+    xdelta3 -d -s "Death Bringer (Japan) (Track 01).bin" "Death Bringer (Japan) (Track 01) [T-Es Vorvek.Loc v1.2].xdelta" "Death Bringer (Japan) [T-Es] (Track 01).bin"
 
 Después de aplicar el parche:
 - Pon al archivo nuevo el nombre que indica el .cue (o edita la línea FILE de la pista 01 en el .cue).
