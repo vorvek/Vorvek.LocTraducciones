@@ -1,5 +1,5 @@
 Death Bringer (PC Engine CD) - Traducción al español
-Vorvek.Loc Traducciones - versión 1.0
+Vorvek.Loc Traducciones - versión 1.1
 ====================================================
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -23,15 +23,15 @@ El parche se aplica a la pista de datos (pista 02). Las demás pistas (01 y 03 a
 
   Pista 02 (datos): "Death Bringer - The Knight of Darkness (Japan) (Track 02).bin"
     Original:  CRC32 cc822800  SHA-1 a21ac71bf4dbe05038683ebcd8c4cde0572cbecd  (12.865.440 bytes)
-    Parche:    Death Bringer - The Knight of Darkness (Japan) (Track 02) [T-Es Vorvek.Loc v1.0].xdelta
-    Resultado: CRC32 f076a2cd  SHA-1 d0d0abdb54f5cc0f4652c353225625a80a52e4af  (12.865.440 bytes)
+    Parche:    Death Bringer - The Knight of Darkness (Japan) (Track 02) [T-Es Vorvek.Loc v1.1].xdelta
+    Resultado: CRC32 415bde80  SHA-1 bade057ed2ac645d4ef960b658f02f5055add182  (12.865.440 bytes)
 
 Cómo aplicar el parche
 ----------------------
 - Windows: xdelta UI o Delta Patcher. Elige el parche, el archivo original y un nombre para el archivo nuevo.
 - Navegador: Rom Patcher JS (https://www.marcrobledo.com/RomPatcher.js/) también admite .xdelta.
 - Línea de comandos:
-    xdelta3 -d -s "Death Bringer - The Knight of Darkness (Japan) (Track 02).bin" "Death Bringer - The Knight of Darkness (Japan) (Track 02) [T-Es Vorvek.Loc v1.0].xdelta" "Track 02 nuevo.bin"
+    xdelta3 -d -s "Death Bringer - The Knight of Darkness (Japan) (Track 02).bin" "Death Bringer - The Knight of Darkness (Japan) (Track 02) [T-Es Vorvek.Loc v1.1].xdelta" "Track 02 nuevo.bin"
 
 Después de aplicar el parche, sustituye el archivo de la pista 02 por el nuevo (con el mismo nombre), deja las
 demás pistas como están y abre el .cue. Para comprobar el resultado, compara el CRC32 o el SHA-1 con los valores
@@ -62,6 +62,28 @@ hacerlo algo más agradable de jugar:
   mejor el espacio en la interfaz y permitir palabras más largas.
 - Colores: los cambios de paleta se hacen durante el retrazado vertical, así que en hardware real ya no aparecen
   líneas cortas al abrir o cerrar cajas, ni el fondo amarillo al descansar o al cambiar de zona.
+
+Cambios en la versión 1.1
+-------------------------
+- Todos los hechizos tienen efecto. En el port de PC Engine, once hechizos solo mostraban su animación: Silencio,
+  Ocultar, Explosión, Égida, Luz solar, Nevada, Niebla, Serenar, Avivar, Robar vida y Exorcismo. Ahora funcionan
+  según el código de la versión de X68000:
+  - Explosión y Nevada dañan al objetivo y a los enemigos que están a una casilla de él.
+  - Égida daña a los enemigos que están junto al lanzador.
+  - Exorcismo hace 255 de daño a los muertos vivientes.
+  - Silencio impide lanzar hechizos durante unos turnos.
+  - Ocultar hace más difícil acertar al objetivo con ataques físicos durante unos turnos.
+  - Luz solar reduce a la mitad el daño físico de los enemigos durante unos turnos.
+  - Niebla reduce a la mitad la puntería de los enemigos durante el resto del combate. (En X68000 los enemigos
+    se defienden o huyen; el combate de PC Engine no tiene esas acciones.)
+  - Serenar quita el embrujo y el pánico. Avivar despierta.
+  - Robar vida deja el ataque y la puntería de un enemigo en 1 durante el resto del combate.
+- Corrección: nivel de las técnicas. El juego leía mal su tabla de niveles, y cualquier técnica con algo de
+  experiencia contaba como nivel 15. Ahora las técnicas suben de nivel con el uso (tabla de la versión de X68000),
+  así que el principio del juego es más difícil.
+- Corrección: la resistencia de los enemigos a un hechizo dependía del daño del hechizo y no de su elemento.
+- Corrección: Curar heridas solo devolvía el primer atributo; ahora devuelve los cuatro.
+- Corrección: Sueño, Embrujo y Pánico fallaban siempre al principio de un combate, antes del primer golpe.
 
 Notas
 -----
