@@ -1,5 +1,5 @@
 Sweet Home (NES) - Traducción al español
-Vorvek.Loc Traducciones - versión 1.0
+Vorvek.Loc Traducciones - versión 1.1
 ================================================================
 
 Este parche traduce al español "Sweet Home" (Capcom, 1989) para Famicom, el juego de terror basado en la
@@ -16,15 +16,15 @@ archivo con cabecera y otro para el archivo sin cabecera:
     Original:  CRC32 252ffd12  SHA-1 a07bd0fdf7ba3a30fc4e40d50373cb77a9627eee
 
   Resultado de los dos parches (524.304 bytes, con cabecera):
-               CRC32 d434736d  SHA-1 5e6895e769bc1c3f1ab8fd1ba74e50fc18a0ce6d
+               CRC32 08706fa2  SHA-1 a097d9fb764cd1a1c05fe2171c05e24159fc0545
 
 Si tu archivo tiene otra cabecera de 16 bytes, quítala y usa el parche sin cabecera: el resultado sale
 igual, con su propia cabecera.
 
 Parches:
 
-  Sweet Home (Japan) [T-Es Vorvek.Loc v1.0].xdelta
-  Sweet Home (Japan) (sin cabecera) [T-Es Vorvek.Loc v1.0].xdelta
+  Sweet Home (Japan) [T-Es Vorvek.Loc v1.1].xdelta
+  Sweet Home (Japan) (sin cabecera) [T-Es Vorvek.Loc v1.1].xdelta
 
 Cómo aplicar el parche
 ----------------------
@@ -47,10 +47,22 @@ Qué incluye
 - Pantalla de nombres con letras latinas y nombres predeterminados: Kazuo, Akiko, Taguchi, Asuka y Emi.
 - Ventanas más anchas donde hacía falta para que quepan las palabras en español.
 
+Cambios en la versión 1.1
+-------------------------
+- Los murciélagos y los gusanos van en plural: son muchos, así que se lo merecen. Los fuegos fatuos se quedan en
+  singular.
+- Tres objetos cambian de nombre:
+  - "Esp. Madera" pasa a ser "Porra": el sprite no es una espada, a pesar de que el juego original lo llama
+    "Bokken" (las espadas de madera de Kendo).
+  - "Hacha grande" (el objeto, no un arma) pasa a ser "Hacha de leñador" (H.LEÑADOR en los menús): es la que
+    corta la leña que cierra el paso en el lago.
+  - "Ropa del difunto" pasa a ser "Vestido de Mamiya" (VESTIDO en los menús).
+- En las preguntas de los primeros planos (el ataúd, el agua, la lanza y el cordel de la máquina), "Sí" y "No"
+  salen en la línea del cursor. Antes salían una línea más arriba.
+- Faltaba un espacio tras el nombre del personaje en "... sufre parálisis" y en "... recibe N de daño".
+
 Notas
 -----
-- Los textos escritos (notas, cartas, papeles en la pared y frases escritas con sangre) van entre comillas.
-  La frase que dice el personaje al encontrarlos queda fuera.
 - En los primeros planos y en los combates, las ventanas de objetos son estrechas y usan nombres cortos
   (BOTIQ., TÓNICO...). En los demás menús los nombres salen completos.
 - Taguchi usa una combinación de dos letras (HI) en un único espacio para caber en los seis espacios del
