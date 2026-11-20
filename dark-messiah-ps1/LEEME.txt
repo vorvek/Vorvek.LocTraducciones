@@ -82,13 +82,16 @@ Qué incluye
 
 Notas de traducción
 -------------------
-- Título: el juego japonés se llama Dark Messiah y el lanzamiento europeo, Hellnight. El título en español
-  une los dos: «HELLNIGHT - Mesías Oscuro».
-- Términos: 東京メッシュ es «la Malla de Tokio»; 「都市」, «la Ciudad»; 融合体, «el Fusionado».
-- La lista de partidas guardadas abrevia los nombres de las zonas («Malla, Nv.2: Sector fabril») para que
-  quepan en el panel. Los rótulos de zona muestran el nombre completo.
-- El menú de la pantalla de título (New Game, Load Game, Option) está en inglés en el disco japonés y no
-  cambia.
+- Título: el juego japonés se llama Dark Messiah y el lanzamiento europeo, Hellnight. Para la traducción se
+  decidió combinar ambos en «HELLNIGHT - Mesías Oscuro».
+- La traducción PAL usó "The Hive" (La Colmena) para lo que en el juego se conoce como 「都市」 (Toshi). En esta
+  traducción se ha usado el significado literal, «la Ciudad»; es como los Antiguos se refieren al lugar en la
+  versión japonesa y aunque visualmente esté inspirado por nidos de insectos, es extraño cuando por lo general
+  son sus habitantes los que usan el término.
+- Igualmente, en la versión PAL tradujeron a 融合体 (Yūgō-tai) como "el híbrido". En esta traducción se ha
+  utilizado «el Fusionado», más cercano al significado original. Un ser "híbrido" nace híbrido. En el juego
+  hay constantes menciones a realizar algo más similar a una "integración" entre dos organismos. O lo que es
+  lo mismo... una fusión. Así se referían a ello en japonés, y así se ha traducido aquí.
 
 Créditos
 --------
