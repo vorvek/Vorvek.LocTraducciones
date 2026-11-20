@@ -21,6 +21,7 @@ Parches y traducciones al español para juegos clásicos.
 | Baroque / Baroque: Yuganda Mousou<br><i>Baroque: Delirios distorsionados</i> | Sega Saturn, PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Baroque) |
 | Captain Tsubasa<br><i>Campeones: Oliver y Benji</i> | NES / Famicom | Localización completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Captain-Tsubasa) |
 | Captain Tsubasa Vol. II: Super Striker<br><i>Campeones - Oliver y Benji - Supergoleador</i> | NES / Famicom | Localización completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Captain-Tsubasa-II) |
+| Dark Messiah<br><i>HELLNIGHT - Mesías Oscuro</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Dark-Messiah) |
 | Death Bringer<br><i>Death Bringer - El Caballero de la Oscuridad</i> | Mega-CD | Traducción completa y mejoras | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Death-Bringer-Mega-CD) |
 | Death Bringer - The Knight of Darkness<br><i>Death Bringer - El Caballero de la Oscuridad</i> | PC Engine CD / TurboGrafx-CD (System Card 3.0) | Traducción completa y mejoras | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Death-Bringer-PC-Engine) |
 | Germs: Nerawareta Machi<br><i>Germs: La ciudad señalada</i> | PlayStation | Traducción completa | [Enlace](https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Germs-Nerawareta-Machi) |

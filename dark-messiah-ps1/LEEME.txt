@@ -1,0 +1,97 @@
+Dark Messiah (PlayStation) - Traducción al español
+Vorvek.Loc Traducciones - versión 1.0
+==================================================
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▒░ HELLNIGHT - Mesías Oscuro ░▒▓▓▓▓
+▓▓▓▓▒░___________________________░▒▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+Este parche traduce al español el juego japonés "ダークメサイア" (Dark Messiah, Atlus, 1998) para PlayStation,
+que en Europa se publicó con el título Hellnight.
+Tokio, fin del milenio. Una criatura ataca un vagón de metro, y el protagonista huye por los túneles con Naomi,
+una estudiante que también ha sobrevivido. Bajo la ciudad está la Malla de Tokio, una ciudad subterránea de
+varios niveles. La criatura los persigue, y el protagonista no puede luchar: solo puede correr. Lo acompaña
+una sola persona cada vez, y si la criatura los alcanza, esa persona muere.
+
+Disco original
+--------------
+Dark Messiah (Japan), SLPS-01422, Redump 5744 (http://redump.org/disc/5744/).
+El disco tiene una sola pista de datos.
+
+El parche está dividido en dos archivos (1de2 y 2de2), que van en dos .zip distintos. Los dos son partes
+del mismo parche y hacen falta los dos: primero se aplica el archivo 1de2 al disco original y después el
+archivo 2de2 al resultado del primero.
+
+  Original:   "Dark Messiah (Japan).bin"
+              CRC32 89e29855  SHA-1 d8d91f75bee8d8778e76523dd2cf9012f3f5322f  (725.354.448 bytes)
+  Parche 1:   Dark Messiah (Japan) [T-Es Vorvek.Loc v1.0] (1de2).xdelta
+              (en Dark-Messiah-PS1-T-Es-v1.0-1de2.zip)
+  Intermedio: "Dark Messiah (Japan) [T-Es 1de2].bin"
+              CRC32 ef3e72d0  SHA-1 d819acbcaa9e5822311470c63a7f2984feb0d49c  (725.354.448 bytes)
+  Parche 2:   Dark Messiah (Japan) [T-Es Vorvek.Loc v1.0] (2de2).xdelta
+              (en Dark-Messiah-PS1-T-Es-v1.0-2de2.zip)
+  Resultado:  "Dark Messiah (Japan) [T-Es].bin"
+              CRC32 ef5dcfd4  SHA-1 1e5d22b793936a3a5100117458024a5c1801c512  (725.354.448 bytes)
+
+El archivo 1de2 lleva todo el texto, los gráficos y los ocho primeros vídeos. El archivo 2de2 lleva los
+otros seis vídeos (las escenas finales de la historia y los finales). Con solo el archivo 1de2 el juego
+funciona, pero esos seis vídeos se quedan en japonés: el parche completo son los dos archivos.
+
+El archivo nuevo tiene el mismo tamaño que el original. La base es el disco japonés, así que el juego
+funciona a 60 Hz (el lanzamiento europeo funciona a 50 Hz).
+
+Cómo aplicar el parche
+----------------------
+Hay que aplicar los dos archivos, en este orden:
+
+  1. El archivo 1de2, al archivo original. El resultado es el archivo intermedio.
+  2. El archivo 2de2, al archivo intermedio. El resultado es el juego completo en español.
+
+- Windows: xdelta UI o Delta Patcher. En cada paso, elige el parche, el archivo de origen y un nombre para
+  el archivo nuevo.
+- Navegador: Rom Patcher JS (https://www.marcrobledo.com/RomPatcher.js/) también admite .xdelta.
+- Línea de comandos:
+    xdelta3 -d -s "Dark Messiah (Japan).bin" "Dark Messiah (Japan) [T-Es Vorvek.Loc v1.0] (1de2).xdelta" "Dark Messiah (Japan) [T-Es 1de2].bin"
+    xdelta3 -d -s "Dark Messiah (Japan) [T-Es 1de2].bin" "Dark Messiah (Japan) [T-Es Vorvek.Loc v1.0] (2de2).xdelta" "Dark Messiah (Japan) [T-Es].bin"
+
+Después de aplicar los dos archivos:
+- Puedes borrar el archivo intermedio.
+- Pon al archivo nuevo el nombre que indica el .cue (o edita la línea FILE del .cue). Si no tienes .cue, crea
+  un archivo de texto "Dark Messiah (Japan) [T-Es].cue" con estas tres líneas:
+    FILE "Dark Messiah (Japan) [T-Es].bin" BINARY
+      TRACK 01 MODE2/2352
+        INDEX 01 00:00:00
+- Abre el .cue en el emulador. Para comprobar el resultado, compara el CRC32 o el SHA-1 con los valores de arriba.
+
+Probado en MiSTer (núcleo PSX) y en Beetle PSX (Mednafen).
+
+Qué incluye
+-----------
+- Traducción nueva de todo el texto, hecha desde el japonés: diálogos, pensamientos del protagonista,
+  descripciones, elecciones, terminales de información, nombres de objetos y de zonas, pantallas de la
+  tarjeta de memoria y opciones.
+- Fuente nueva de ancho variable, dibujada para este juego, en seminegrita para que se lea bien en un
+  televisor, con acentos, ñ, ü, ¿, ¡ y « ». Las líneas de diálogo usan todo el ancho del cuadro de texto.
+- Gráficos redibujados en español: los 18 rótulos con el nombre de cada zona.
+- Logotipo: la pantalla de título y la pantalla de guardado llevan el logotipo HELLNIGHT del lanzamiento
+  europeo, con el subtítulo «Mesías Oscuro».
+- Vídeos: 14 vídeos tienen subtítulos en español para las voces y rótulos en español en el lugar de los
+  rótulos japoneses: la introducción, las escenas de la historia, los finales y el vídeo de demostración
+  de la pantalla de título.
+
+Notas de traducción
+-------------------
+- Título: el juego japonés se llama Dark Messiah y el lanzamiento europeo, Hellnight. El título en español
+  une los dos: «HELLNIGHT - Mesías Oscuro».
+- Términos: 東京メッシュ es «la Malla de Tokio»; 「都市」, «la Ciudad»; 融合体, «el Fusionado».
+- La lista de partidas guardadas abrevia los nombres de las zonas («Malla, Nv.2: Sector fabril») para que
+  quepan en el panel. Los rótulos de zona muestran el nombre completo.
+- El menú de la pantalla de título (New Game, Load Game, Option) está en inglés en el disco japonés y no
+  cambia.
+
+Créditos
+--------
+- Traducción, programación y gráficos: Vorvek.Loc Traducciones.
+
+Más información: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Dark-Messiah
